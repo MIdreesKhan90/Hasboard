@@ -1,0 +1,3079 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rhombus</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+
+  <link href="https://example.com/" rel="canonical" />
+  <!-- preferred URL - change for you site -->
+
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css" /> -->
+  <link href="./assets/css/main.css" rel="stylesheet" />
+  <link href="./assets/css/responsive.css" rel="stylesheet" />
+<style>
+    .quotes-table .table>:not(caption)>*>* {
+    padding: 2px;
+}
+</style>
+</head>
+
+<body>
+  <section class="section-panel">
+    <div class="admin-wrapper">
+      <aside class="aside">
+        <div class="left-top">
+          <div class="sitepanel-toggler">
+            <div class="close">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="logo">
+              <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
+            </div>
+          </div>
+          <ul>
+            <li><a href="./fm-index.html" class="panel_link active_panel"><i class="icon icon-overviwe"></i>
+                <span>Dashboard</span></a></li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link " href="#" id="Business-Dropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-sales-information"></i><span>Sales Page</span>
+              </a>
+              <ul class="Business-Dropdown" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="./fm-quote-history.html"><i
+                      class="icon icon-sales-information"></i>
+                    <span>Quotations</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./fm-sales-order.html"><i
+                      class="icon icon-sales-information"></i> <span>Sales
+                      Orders</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./fm-invoices.html"><i
+                      class="icon icon-sales-information"></i>
+                    <span>Invoices</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./fm-credit-note.html"><i
+                      class="icon icon-sales-information"></i>
+                    <span>Credit Note</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link " href="#" id="Business-Dropdown-1"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-project-supplies"></i><span>Purchases</span>
+              </a>
+              <ul class="Business-Dropdown-1" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="./fm-purchase-orders.html"><i
+                      class="icon icon-project-supplies"></i>
+                    <span>Purchase Orders</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./fm-bills.html"><i
+                      class="icon icon-project-supplies"></i> <span>Bills</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./fm-debit-note.html"><i
+                      class="icon icon-project-supplies"></i>
+                    <span>Debit</span></a></li>
+                    <li><a class="dropdown-item panel_link" href="./fm-expenses.html"><i
+                      class="icon icon-project-supplies"></i>
+                    <span>Expenses</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link " href="#" id="Sales-Dropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-expeness"></i><span>Payrolls</span>
+              </a>
+              <ul class="Sales-Dropdown" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="./fm-employees.html"><i class="icon icon-expeness"></i>
+                    <span>Employees</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./fm-payrolls.html"><i class="icon icon-expeness"></i>
+                    <span>Payrolls</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link " href="#" id="Transactions-Dropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-expenses"></i><span>Customers & vendors</span>
+              </a>
+              <ul class="transactions-dropdown" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="./fm-customers-project.html"><i
+                      class="icon icon-expenses"></i>
+                    <span>Customers & projects</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./fm-vendors.html"><i class="icon icon-expenses"></i>
+                    <span>Vendors</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link " href="#" id="Setting-Dropdown-1"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-project-supplies"></i><span>Products & Services</span>
+              </a>
+              <ul class="Setting-Dropdown-1" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="./fm-products-services.html"><i
+                      class="icon icon-project-supplies"></i>
+                    <span>Products & Services</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link" href="#" id="Setting-Dropdown-3"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-project-supplies"></i><span>Account</span>
+              </a>
+              <ul class="Setting-Dropdown-3" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link" href="./fm-account.html"><i
+                      class="icon icon-project-supplies"></i>
+                    <span>Chart of Accounts</span></a></li>
+                    <li><a class="dropdown-item panel_link " href="./fm-manual-journal.html"><i
+                      class="icon icon-project-supplies"></i>
+                    <span>Manual Journal</span></a></li>
+              </ul>
+            </li>
+            <li><a href="./fm-transferred-projects.html" class="panel_link"><i
+                  class="icon icon-transferred-projects"></i>
+                <span>Transferred Document</span></a></li>
+            <li><a href="./fm-report.html" class="panel_link"><i class="icon icon-reports"></i>
+                <span>Reports</span></a></li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link " href="#" id="Setting-Dropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-settings"></i> <span>Setting</span>
+              </a>
+              <ul class="Setting-Dropdown" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="" data-bs-toggle="modal" data-bs-target="#SettingForm"><i
+                      class="icon icon-settings"></i> <span>Account</span></a></li>
+                <li><a class="dropdown-item panel_link " href="./fm-setting-general.html"><i
+                      class="icon icon-settings"></i> <span>General</span></a></li>
+
+              </ul>
+            </li>
+            <li><a href="./new-index.html" class="panel_link "><span>New Dashboard</span></a></li>
+            <div class="open-button">
+              <i class="icon icon-right-arrow"></i>
+            </div>
+          </ul>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="top-nav bg-white justify-content-between">
+          <div class="sitepanel-toggler for-mobile">
+            <div class="close">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="logo">
+              <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
+            </div>
+          </div>
+          <div class="search-form d-none d-md-block">
+            <form action="">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Search..." aria-label="Search">
+                <i class="icon icon-search-form"></i>
+              </div>
+            </form>
+          </div>
+          <div class="about-profile">
+            <div class="d-none d-md-flex align-items-center">
+              <button type="button" class="btn ouline-white" data-bs-toggle="modal" data-bs-target="#userForm"><i
+                  class="icon icon-plus"></i> Add</button>
+              <a href=""><i class="icon icon-question"></i></a>
+              <div class="dropdown select-dropdown admin-notification">
+                <button class="btn dropdown-toggle text-dark border-0 m-0" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false" style="min-width: 50px !important;">
+                  <i class="icon icon-notification"></i>
+                </button>
+                <ul class="dropdown-menu min-w-320" aria-labelledby="dropdownMenuButton1">
+                  <div class="p-2 d-flex align-items-center justify-content-between border-bottom">
+                    <p>Notification</p>
+                    <a href="./fm-account-activities.html" class="text-decoration-none text-fill fw-600">See All</a>
+                  </div>
+                  <div class="p-2 border-bottom">
+                    <p class="text-light-gray"><b class="text-dark">Edit your information in a swipe</b> Sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                    <p class="text-light-gray mt-3">12 May, 2025</p>
+                  </div>
+                  <div class="p-2 border-bottom">
+                    <p class="text-light-gray"><b class="text-dark">Edit your information in a swipe</b> Sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                    <p class="text-light-gray mt-3">12 May, 2025</p>
+                  </div>
+                  <div class="p-2">
+                    <p class="text-light-gray"><b class="text-dark">Edit your information in a swipe</b> Sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                    <p class="text-light-gray mt-3">12 May, 2025</p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="dropdown select-dropdown admin-profile">
+              <button class="btn dropdown-toggle text-dark w-100 border-0 d-flex align-center ms-md-4" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="profile-img me-2">
+                  <img class="img-fluid" src="./assets/images/profile.png" alt="">
+                </div>
+                <div class="admin-info d-none d-md-block">
+                  <h5 class="">Katie Pena</h5>
+                  <h6 class="">Admin</h6>
+                </div>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <div class="profile-images text-center">
+                  <img src="./assets/images/profile-2.png" alt="">
+                  <h6 class="text-small mt-2">Allen Moreno</h6>
+                  <p class="text-small text-light-gray">allenmoreno@gmail.com</p>
+                </div>
+                <li><a class="dropdown-item mt-3" href="./fm-edit-profile.html"><i class="icon icon-user-profile"></i>
+                    My Profile</a></li>
+                <li><a class="dropdown-item" href="./fm-profile-activities.html"><i class="icon icon-calender-2"></i>
+                    Actions</a></li>
+                <li><a class="dropdown-item" href="#"><i class="icon icon-question me-1"></i> FAQ</a></li>
+                <li><a class="dropdown-item" href="#"><i class="icon icon-power-off me-1"></i> Sign Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 mt-5 setting-panal">
+              <div class="general-tabs">
+                <h6 class="fw-600">Company</h6>
+                <ul class="nav nav-tabs flex-column border-0" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link text-uppercase active" id="organizationDetails-tab" data-bs-toggle="tab"
+                      data-bs-target="#organizationDetails" type="button" role="tab" aria-controls="organizationDetails"
+                      aria-selected="true">Organization Details</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Organication-tab" data-bs-toggle="tab"
+                      data-bs-target="#Organication" type="button" role="tab" aria-controls="Organication"
+                      aria-selected="true">Organication Setting</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="InvoiceBill-tab" data-bs-toggle="tab"
+                      data-bs-target="#InvoiceBill" type="button" role="tab" aria-controls="InvoiceBill"
+                      aria-selected="true">Invoice & Bill setting</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Payroll-tab" data-bs-toggle="tab"
+                      data-bs-target="#Payroll" type="button" role="tab" aria-controls="Payroll"
+                      aria-selected="true">Payroll setting</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="taxRates-tab" data-bs-toggle="tab"
+                      data-bs-target="#taxRates" type="button" role="tab" aria-controls="taxRates"
+                      aria-selected="true">Tax Rates</button>
+                  </li>
+                  <h6 class="fw-600">Email Setting</h6>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link text-uppercase" id="emailPreferences-tab" data-bs-toggle="tab"
+                      data-bs-target="#emailPreferences" type="button" role="tab" aria-controls="emailPreferences"
+                      aria-selected="true">Send Email Preferences</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Statement-tab" data-bs-toggle="tab"
+                      data-bs-target="#Statement" type="button" role="tab" aria-controls="Statement"
+                      aria-selected="true">Customer Statement</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="quoteNotification-tab" data-bs-toggle="tab"
+                      data-bs-target="#quoteNotification" type="button" role="tab" aria-controls="quoteNotification"
+                      aria-selected="true">Quote Notification</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="invoiceNotification-tab" data-bs-toggle="tab"
+                      data-bs-target="#invoiceNotification" type="button" role="tab" aria-controls="invoiceNotification"
+                      aria-selected="true">Invoice Notification</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Credit-tab" data-bs-toggle="tab"
+                      data-bs-target="#Credit" type="button" role="tab" aria-controls="Credit"
+                      aria-selected="true">Credit Note Notification</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Thankyou-tab-tab" data-bs-toggle="tab"
+                      data-bs-target="#Thankyou-tab" type="button" role="tab" aria-controls="Thankyou-tab"
+                      aria-selected="true">Payment Thank-you</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Initiated-tab-tab" data-bs-toggle="tab"
+                      data-bs-target="#Initiated-tab" type="button" role="tab" aria-controls="Initiated-tab"
+                      aria-selected="true">Payment Initiated</button>
+                  </li>
+                                    <h6 class="fw-600">General</h6>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Permission-tab" data-bs-toggle="tab"
+                      data-bs-target="#Permission" type="button" role="tab" aria-controls="Permission"
+                      aria-selected="true">Permission</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Department-tab" data-bs-toggle="tab"
+                      data-bs-target="#Department" type="button" role="tab" aria-controls="Department"
+                      aria-selected="false">Department</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Approval-tab" data-bs-toggle="tab"
+                      data-bs-target="#Approval" type="button" role="tab" aria-controls="Approval"
+                      aria-selected="false">Approval</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Language-tab" data-bs-toggle="tab"
+                      data-bs-target="#Language" type="button" role="tab" aria-controls="Language"
+                      aria-selected="true">Language setting</button>
+                  </li>
+                  <h6 class="fw-600">Templates</h6>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Quotes-tab" data-bs-toggle="tab"
+                      data-bs-target="#Quotes" type="button" role="tab" aria-controls="Quotes"
+                      aria-selected="true">Quotes</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="Invoices-tab" data-bs-toggle="tab"
+                      data-bs-target="#Invoices" type="button" role="tab" aria-controls="Invoices"
+                      aria-selected="true">Invoices</button>
+                  </li>
+                  <li class="nav-item m-0" role="presentation">
+                    <button class="nav-link text-uppercase" id="CreditNote-tab" data-bs-toggle="tab"
+                      data-bs-target="#CreditNote" type="button" role="tab" aria-controls="CreditNote"
+                      aria-selected="true">Credit Notes</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="tab-content mt-5">
+                <div class="tab-pane active" id="organizationDetails" role="tabpanel"
+                  aria-labelledby="organizationDetails-tab">
+                  <h2 class="fw-600">Basic Information</h2>
+                  <form>
+                    <div class="d-flex mt-4">
+                      <label for="role" class="fw-bold me-3 col-md-3">Display Name</label>
+                      <input type="text" name="solutions" id="solutions" placeholder="Hashboard"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Legal / Trading Name</label>
+                      <input type="text" name="solutions" id="solutions" placeholder="Hashboard"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3 upload-box">
+                      <label for="role" class="fw-bold me-3 col-md-3 mt-5">Logo</label>
+                      <div class="form-group">
+                        <label for="fileField" class="attachment">
+                          <div class="row btn-file">
+                            <div class="btn-file__preview"></div>
+                            <div class="btn-file__actions">
+                              <div class="btn-file__actions__item col-xs-12 text-center">
+                                <div class="btn-file__actions__item--shadow">
+                                  Upload Logo
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <input name="file" type="file" id="fileField">
+                        </label>
+                      </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">What is your line of business?</label>
+                      <input type="text" name="solutions" id="solutions" placeholder="Architectural Services"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Organization Type</label>
+                      <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                        <option value="Manager">Select one of the below</option>
+                        <option value="Manager">Admin</option>
+                        <option value="Urdu">Extended</option>
+                        <option value="Hindi">Standard</option>
+                        <option value="Punjabi">Limited</option>
+                      </select>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Business Registration Number</label>
+                      <input type="text" name="solutions" id="solutions"
+                        placeholder="Official registration number to appear on your documents"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Organization description</label>
+                      <textarea name="description" id="description" cols="30" rows="5"
+                        class="d-block w-100 border border-2 rounded px-4 py-2"></textarea>
+                    </div>
+                    <h2 class="fw-600 mt-4">Contact Details</h2>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Postal address</label>
+                      <div class="col-md-9">
+                        <textarea name="description" id="description" cols="30" rows="5"
+                          placeholder="Street address or PO box"
+                          class="d-block w-100 border border-2 rounded px-4 py-2"></textarea>
+                        <input type="text" name="solutions" id="solutions" placeholder="Town / City"
+                          class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <div class="d-flex align-items-center">
+                          <input type="text" name="solutions" id="solutions" placeholder="State / Region"
+                            class="d-block w-50 border border-2 rounded px-4 py-2">
+                          <input type="number" name="solutions" id="solutions" placeholder="Postal / Zip Code"
+                            class="d-block w-50 border border-2 rounded px-4 py-2">
+                        </div>
+                        <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                          <option value="Manager">Country</option>
+                          <option value="Manager">Pakistan</option>
+                          <option value="Urdu">USA</option>
+                          <option value="Hindi">UAE</option>
+                        </select>
+                        <input type="number" name="solutions" id="solutions" placeholder="Attention"
+                          class="d-block w-100 border border-2 rounded px-4 py-2">
+                      </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Physical Address</label>
+                      <div class="col-md-9">
+                        <div class="form-check">
+                          <input class="form-check-input d-block" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Same as Postal Address
+                          </label>
+                        </div>
+                        <textarea name="description" id="description" cols="30" rows="5"
+                          placeholder="Street address or PO box"
+                          class="d-block w-100 border border-2 rounded px-4 py-2"></textarea>
+                        <input type="text" name="solutions" id="solutions" placeholder="Town / City"
+                          class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <div class="d-flex align-items-center">
+                          <input type="text" name="solutions" id="solutions" placeholder="State / Region"
+                            class="d-block w-50 border border-2 rounded px-4 py-2">
+                          <input type="number" name="solutions" id="solutions" placeholder="Postal / Zip Code"
+                            class="d-block w-50 border border-2 rounded px-4 py-2">
+                        </div>
+                        <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                          <option value="Manager">Country</option>
+                          <option value="Manager">Pakistan</option>
+                          <option value="Urdu">USA</option>
+                          <option value="Hindi">UAE</option>
+                        </select>
+                        <input type="number" name="solutions" id="solutions" placeholder="Attention"
+                          class="d-block w-100 border border-2 rounded px-4 py-2">
+                      </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Telephone</label>
+                      <input id="phone" type="tel" name="phone" class="w-100 py-2" />
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Email</label>
+                      <input type="email" name="solutions" id="solutions"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Website</label>
+                      <input type="text" name="solutions" id="solutions"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <h2 class="fw-600 mt-4">Terms and Conditions</h2>
+                    <div class="form-check">
+                      <input class="form-check-input d-block" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        I have read and agree to the <a href="" class="text-decoration-none">Xero Terms of Use</a> and
+                        <a href="" class="text-decoration-none">Community Guldelines</a>
+                      </label>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane" id="Organication" role="tabpanel" aria-labelledby="Organication-tab">
+                  <form>
+                    <div class="d-flex mt-4">
+                      <label for="role" class="fw-bold me-3 col-md-3">Company Name</label>
+                      <input type="text" placeholder="Initiation stage stage"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Company Name (Arabic)</label>
+                      <input type="text" placeholder="Initiation stage stage"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Tax Number</label>
+                      <input type="text" placeholder="Report category"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">VAT Number</label>
+                      <input type="text" placeholder="Report data 1"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Adress</label>
+                      <input type="text" placeholder="Report data 2"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Email</label>
+                      <input type="email" placeholder="Report data 2"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Phone</label>
+                      <input type="number" placeholder="000000" class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Preferred Currency</label>
+                      <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                        <option value="Manager">Select one of the below</option>
+                        <option value="Manager">SAR</option>
+                        <option value="Urdu">Sab</option>
+                        <option value="Hindi">Opel</option>
+                        <option value="Punjabi">Audi</option>
+                      </select>
+                    </div>
+                    <div class="text-end w-100">
+                      <button class="btn btn-fill wsm-100 mt-3">Submit</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane" id="InvoiceBill" role="tabpanel" aria-labelledby="InvoiceBill-tab">
+                  <form>
+                    <div class="d-flex mt-4">
+                      <label for="role" class="fw-bold me-3 col-md-3">Bank Name</label>
+                      <input type="text" placeholder="Initiation stage stage"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Bank Account</label>
+                      <input type="number" placeholder="Initiation stage stage"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Payment Terms</label>
+                      <select id="cars" name="carlist" form="carform"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="volvo">After 30 Days</option>
+                      </select>
+                    </div>
+                    <div class="w-100 text-end mt-2">
+                      <a href="" class="fw-600 text-decoration-none text-uppercase text-light-gray"
+                        data-bs-toggle="modal" data-bs-target="#PaymentModal">+ Add new</a>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Tax Type</label>
+                      <select id="cars" name="carlist" form="carform"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="volvo">15%</option>
+                      </select>
+                    </div>
+                    <div class="w-100 text-end mt-2">
+                      <a href="" class="fw-600 text-decoration-none text-uppercase text-light-gray"
+                        data-bs-toggle="modal" data-bs-target="#TaxModal">+ Add new</a>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Accounts</label>
+                      <select id="cars" name="carlist" form="carform"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option class="" value="#">Current Assets 1-101</option>
+                        <option class="" value="#">Bank 1-102</option>
+                        <option class="" value="#">Petty Cash 1-103</option>
+                        <option class="" value="#">Accounts Receiable 1-104</option>
+                        <option class="" value="#">Fixed Assets 1-200</option>
+                        <option class="" value="#">Office Equipment 1-201</option>
+                        <option class="" value="#">Motor Vichle</option>
+
+                      </select>
+                    </div>
+                    <div class="w-100 text-end mt-2">
+                      <a href="" class="fw-600 text-decoration-none text-uppercase text-light-gray"
+                        data-bs-toggle="modal" data-bs-target="#AccountsModal">+ Add new</a>
+                    </div>
+
+
+
+                    <div class="text-end w-100">
+                      <button class="btn btn-fill wsm-100 mt-3">Submit</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane" id="Payroll" role="tabpanel" aria-labelledby="Payroll-tab">
+                  <form>
+                    <div class="d-flex mt-4">
+                      <label for="role" class="fw-bold me-3 col-md-3">Overtime multiplier</label>
+                      <div class="d-flex align-items-center w-100">
+                        <input type="number" name="name" id="name" placeholder="1.5"
+                          class="d-block w-100 border border-2 rounded-start px-4 py-2 border-end-0">
+                        <p class="text-light-gray fw-600 bg-white border border-2 rounded-end border-start-0 py-2 pe-2">
+                          Hours</p>
+                      </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Late multiplier</label>
+                      <div class="d-flex align-items-center w-100">
+                        <input type="number" name="name" id="name" placeholder="1.5"
+                          class="d-block w-100 border border-2 rounded-start px-4 py-2 border-end-0">
+                        <p class="text-light-gray fw-600 bg-white border border-2 rounded-end border-start-0 py-2 pe-2">
+                          Hours</p>
+                      </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Undertime multiplier</label>
+                      <div class="d-flex align-items-center w-100">
+                        <input type="number" name="name" id="name" placeholder="1.5"
+                          class="d-block w-100 border border-2 rounded-start px-4 py-2 border-end-0">
+                        <p class="text-light-gray fw-600 bg-white border border-2 rounded-end border-start-0 py-2 pe-2">
+                          Hours</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Liability account</label>
+                      <select id="cars" name="carlist" form="carform"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="#">Current Liabilities 2-101</option>
+                        <option value="#">Credit Card 2-102</option>
+                        <option value="#">Account Payable 2-103</option>
+                        <option value="#">Long Term Liabilities 2-200</option>
+                        <option value="#">Bank Loan 2-201</option>
+                        <option value="#">Vichle Loan 2-202</option>
+                      </select>
+                    </div>
+                    <div class="w-100 text-end mt-2">
+                      <a href="" class="fw-600 text-decoration-none text-uppercase text-light-gray"
+                        data-bs-toggle="modal" data-bs-target="#LiabilityAccountModal">+ Add new</a>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Direct Cost Salaries</label>
+                      <select id="cars" name="carlist" form="carform"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="#">Cost of goods</option>
+                      </select>
+                    </div>
+                    <div class="w-100 text-end mt-2">
+                      <a href="" class="fw-600 text-decoration-none text-uppercase text-light-gray"
+                        data-bs-toggle="modal" data-bs-target="#DirectCostModal">+ Add new</a>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Bonuses</label>
+                      <select id="cars" name="carlist" form="carform"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="#">Capital 3-101</option>
+                        <option value="#">Drawings 3-102</option>
+                        <option value="#">Labour 4-101</option>
+                        <option value="#">Materials 4-102</option>
+                        <option value="#">Bank Intrest 4-103</option>
+                      </select>
+                    </div>
+                    <div class="w-100 text-end mt-2">
+                      <a href="" class="fw-600 text-decoration-none text-uppercase text-light-gray"
+                        data-bs-toggle="modal" data-bs-target="#BonusesModal">+ Add new</a>
+                    </div>
+                    <div class="d-flex mt-3">
+                      <label for="role" class="fw-bold me-3 col-md-3">Deduction</label>
+                      <select id="cars" name="carlist" form="carform"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="#">Cost of Goods Sold 6-100</option>
+                        <option value="#">Advertising 6-101</option>
+                        <option value="#">Bank Fees 6-102</option>
+                        <option value="#">General Expenses 6-103</option>
+                        <option value="#">Internet 6-104</option>
+                        <option value="#">Stationery 6-105</option>
+                        <option value="#">Subscriptions 6-106</option>
+                        <option value="#">Telephone 6-107</option>
+                      </select>
+                    </div>
+                    <div class="w-100 text-end mt-2">
+                      <a href="" class="fw-600 text-decoration-none text-uppercase text-light-gray"
+                        data-bs-toggle="modal" data-bs-target="#DeductionModal">+ Add new</a>
+                    </div>
+
+                    <div class="text-end w-100">
+                      <button class="btn btn-fill wsm-100 mt-3">Submit</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane " id="Invoice" role="tabpanel" aria-labelledby="Invoice-tab">
+                  <div class="mt-4 d-flex align-items-center flex-colume-sm">
+                    <button type="button" class="btn ouline-white btn-fill wsm-100 mt-3 mt-md-0" data-bs-toggle="modal"
+                      data-bs-target="#invoiceTemplateModal">New Invoice Template</button>
+                    <button type="button" class="btn ouline-white btn-fill wsm-100 mt-3 mt-md-0">Default
+                      Setting</button>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between border border-2 px-3 py-2 mt-4 rounded">
+                    <h4 class="mt-3 me-3">Standard</h4>
+                    <div class="dropdown select-dropdown">
+                      <button class="btn btn-secondary dropdown-toggle pe-5 mt-3 mt-md-0" type="button"
+                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Options
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Edit</a></li>
+                        <li><a class="dropdown-item" href="#">Copy</a></li>
+                        <li><a class="dropdown-item" href="#">Change Logo</a></li>
+                        <li><a class="dropdown-item" href="#">Preview</a></li>
+                        <li><a class="dropdown-item" href="#">Remove Logo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-6">
+                      <p>Page: <b>US Letter</b> Margins Top: <b>1.35cm</b> Bottom: <b>1.00 cm</b> Font: <b>Arial Unicode
+                          ms, 9pt</b></p>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <p>Show:</p>
+                          <ul>
+                            <li>Tax Number</li>
+                            <li>Column headings</li>
+                            <li>Tax Column</li>
+                            <li>Unit price and quantity</li>
+                            <li>Payment advice cut-away</li>
+                            <li>Registrered address</li>
+                            <li>Logo</li>
+                            <li>Discount</li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <ul>
+                            <li>Logo align: Right</li>
+                            <li>Tax exclusive</li>
+                            <li>Tax subtotals by tax components over 0%</li>
+                            <li>Currency conversion as a single tax total</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <p class="mt-3">Heading: DRAFT INVOICE, INVOICE, INVOICE, CREDIT NOTE, STATEMENT, DRAFT PURCHASE
+                        ORDER, PURCHASE ORDER, DRAFT QUOTE, QUOTE, REMITTANCE ADVICE, RECEIPT</p>
+                      <p class="mt-3"><b>Payment Service:</b> None</p>
+                      <p class="mt-3">Terms & Payment Advice (Invoice and Statement):</p>
+                      <a href="" class="text-decoration-none">(None added)</a>
+                      <p class="mt-3">Terms (Quotes):</p>
+                      <a href="" class="text-decoration-none">(None added)</a>
+                    </div>
+                    <div class="col-md-3">
+                      <p class="fw-600">Contact Details</p>
+                      <p>Hashboard</p>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="./assets/images/logo.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane " id="General" role="tabpanel" aria-labelledby="General-tab">
+                  <h2 class="fw-600">General</h2>
+                  <form>
+                    <label for="role" class="fw-bold mt-3 mb-2">Name</label>
+                    <input type="text" name="solutions" id="solutions" placeholder="Solutions"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                    <label for="role" class="fw-bold mt-3 mb-2">Time Zone</label>
+                    <input type="time" name="timeZone" id="timeZone"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                    <label for="role" class="fw-bold mt-3 mb-2">Time Format</label>
+                    <input type="time" name="timeZone" id="timeZone" placeholder="Nothing Selected"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                    <label for="role" class="fw-bold mt-3 mb-2">Language</label>
+                    <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <option value="Manager">English</option>
+                      <option value="Urdu">Urdu</option>
+                      <option value="Hindi">Hindi</option>
+                      <option value="Punjabi">Punjabi</option>
+                    </select>
+                    <p class="text-small text-light-gray">Set the primary recrulter as manager. The manager is the
+                      default sender of automatic repiles sent to candidates.</p>
+                    <label for="role" class="fw-bold mt-3 mb-2">Career site Manager</label>
+                    <input type="time" name="timeZone" id="timeZone" placeholder="malmohaimeed@solutions.com.sa"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                    <p class="text-small text-light-gray">Pick the primary recrulter as manager. The manager is the </p>
+                    <label for="role" class="fw-bold mt-3 mb-2">Industry</label>
+                    <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <option value="Manager">Nothing Selected</option>
+                      <option value="Urdu">Urdu</option>
+                      <option value="Hindi">Hindi</option>
+                      <option value="Punjabi">Punjabi</option>
+                    </select>
+                    <div class="w-100 text-end">
+                      <button class="btn btn-fill mt-3">Save</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane" id="Department" role="tabpanel" aria-labelledby="Department-tab">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h4 class="fw-600">Departments</h4>
+                    <button class="btn btn-fill mt-3" data-bs-toggle="modal" data-bs-target="#departmentModal">+ Add
+                      Department</button>
+                  </div>
+                </div>
+                <div class="tab-pane" id="Approval" role="tabpanel" aria-labelledby="Approval-tab">
+                  <div class="page-main-title justify-content-end">
+                    <button class="btn btn-fill popup-button" data-bs-toggle="modal" data-bs-target="#approvalModal">Add
+                      New</button>
+                  </div>
+                  <div class="row">
+                    <div class="invoice-table tablepanel">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Department Name</th>
+                            <th scope="col">Manager</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Total Members</th>
+                            <th scope="col">Create Date</th>
+                            <th scope="col"><a href="#" class="text-decoration-none fw-600">Edit</a></th>
+                          </tr>
+                        </thead>
+                        <tbody class="right-content interest-body" style="display: table-row-group;">
+                          <tr>
+                            <td scope="row" data-label="Department Name">
+                              <div class="d-flex align-items-center justify-content-end justify-content-md-start">
+                                <img src="./assets/images/prof-img-1.png" alt="">
+                                <h6 class="ms-3 fw-500 text-sm">Mathilda Bell</h6>
+                              </div>
+                            </td>
+                            <td data-label="Manager">(435) 474-3348</td>
+                            <td data-label="Email">napozje@paw.com</td>
+                            <td data-label="Total Members">12</td>
+                            <td data-label="Created Date">16 Mar 2022</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td scope="row" data-label="Department Name">
+                              <div class="d-flex align-items-center justify-content-end justify-content-md-start">
+                                <img src="./assets/images/ryan-stevens.jpg" alt="">
+                                <h6 class="ms-3 fw-500 text-sm">Ryan Stevens</h6>
+                              </div>
+                            </td>
+                            <td data-label="Manager">(804) 362-8940</td>
+                            <td data-label="Email">lefiden@podi.gov</td>
+                            <td data-label="Total Members">12</td>
+                            <td data-label="Created Date">25 May 2022</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td scope="row" data-label="Department Name">
+                              <div class="d-flex align-items-center justify-content-end justify-content-md-start">
+                                <img src="./assets/images/loretta-myers.jpg" alt="">
+                                <h6 class="ms-3 fw-500 text-sm">Loretta Myers</h6>
+                              </div>
+                            </td>
+                            <td data-label="Manager">(513) 711-3369</td>
+                            <td data-label="Email">kuw@rolluzdi.gov</td>
+                            <td data-label="Total Members">12</td>
+                            <td data-label="Created Date">18 Aug 2022</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td scope="row" data-label="Department Name">
+                              <div class="d-flex align-items-center justify-content-end justify-content-md-start">
+                                <img src="./assets/images/carrie-aguilar.jpg" alt="">
+                                <h6 class="ms-3 fw-500 text-sm">Carrie Aguilar</h6>
+                              </div>
+                            </td>
+                            <td data-label="Manager">(556) 616-5266</td>
+                            <td data-label="Email">enval@maf.com</td>
+                            <td data-label="Total Members">12</td>
+                            <td data-label="Created Date">12 Mar 2022</td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="Permission" role="tabpanel" aria-labelledby="Permission-tab">
+                  <div class="prof-table table tablepanel">
+                    <table class="mt-3">
+                      <thead>
+                        <tr>
+                          <th>Feature</th>
+                          <th>Owner</th>
+                          <th>Admin</th>
+                          <th>Extended</th>
+                          <th>Standard</th>
+                          <th>Limited</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Customer</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Customer</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project stages</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project Stages</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project Revenue Plan</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project Revenue Plan</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project COCs</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project POs</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project Contact</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project Contact</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project Risks</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project Risks</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project Issues</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project Issues</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project Stakeholders</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project Stakeholders</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Add Project Documents</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <td scope="col" data-label="Feature">Edit Project Documents</td>
+                          <td scope="col" data-label="Owner">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Admin">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Extended">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Standard">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                          <td scope="col" data-label="Limited">
+                            <input class="form-check-input d-block w-15" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="tab-pane" id="Language" role="tabpanel" aria-labelledby="Language-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h1>Language</h1>
+                    </div>
+                  </div>
+                  <form>
+                    <label for="role" class="fw-bold mt-3 mb-2">Career site language</label>
+                    <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <option value="Manager">English</option>
+                      <option value="Urdu">Urdu</option>
+                      <option value="Hindi">Hindi</option>
+                      <option value="Punjabi">Punjabi</option>
+                    </select>
+                    <div class="text-end w-100">
+                      <button class="btn btn-fill wsm-100 mt-3">Save</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane" id="Category" role="tabpanel" aria-labelledby="Category-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h1>Portfolio</h1>
+                    </div>
+                  </div>
+                  <label for="name" class="fw-bold mt-3 mb-2">Add New Portfolio</label>
+                  <input type="text" name="name" id="name" placeholder="Enter a Portfolio Name"
+                    class="d-block w-100 border border-2 rounded px-4 py-2">
+                  <div class="text-end w-100">
+                    <button class="btn btn-fill wsm-100 mt-3">Add</button>
+                  </div>
+                  <div class="invoice-table tablepanel mt-3">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Portfolio Name</th>
+                          <th scope="col">Portfolio ID</th>
+                          <th scope="col">Edit</th>
+                        </tr>
+                      </thead>
+                      <tbody class="right-content interest-body" style="display: table-row-group;">
+                        <tr>
+                          <td scope="row" data-label="Portfolio Name">
+                            <h6 class="ms-3 fw-500 text-sm">Mathilda Bell</h6>
+                          </td>
+                          <td data-label="Portfolio ID">PO-1</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Portfolio Name">
+                            <h6 class="ms-3 fw-500 text-sm">Ryan Stevens</h6>
+                          </td>
+                          <td data-label="Portfolio ID">PO-2</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Portfolio Name">
+                            <h6 class="ms-3 fw-500 text-sm">Loretta Myers</h6>
+                          </td>
+                          <td data-label="Portfolio ID">PO-3</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Portfolio Name">
+                            <h6 class="ms-3 fw-500 text-sm">Carrie Aguilar</h6>
+                          </td>
+                          <td data-label="Portfolio ID">PO-4</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="tab-pane" id="scope" role="tabpanel" aria-labelledby="scope-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h1>Product and Services</h1>
+                    </div>
+                  </div>
+                  <label for="name" class="fw-bold mt-3 mb-2">Add New Product and Services</label>
+                  <input type="text" name="name" id="name" placeholder="Enter a Product and Services Name"
+                    class="d-block w-100 border border-2 rounded px-4 py-2">
+                  <div class="text-end w-100">
+                    <button class="btn btn-fill wsm-100 mt-3">Add</button>
+                  </div>
+                  <div class="invoice-table tablepanel mt-3">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Product and Services Name</th>
+                          <th scope="col">Product and Services ID</th>
+                          <th scope="col">Edit</th>
+                        </tr>
+                      </thead>
+                      <tbody class="right-content interest-body" style="display: table-row-group;">
+                        <tr>
+                          <td scope="row" data-label="Product and Services Name">
+                            <h6 class="ms-3 fw-500 text-sm">Mathilda Bell</h6>
+                          </td>
+                          <td data-label="Product and Services ID">PO-1</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#ScopeModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Product and Services Name">
+                            <h6 class="ms-3 fw-500 text-sm">Ryan Stevens</h6>
+                          </td>
+                          <td data-label="Product and Services ID">PO-2</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#ScopeModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Product and Services Name">
+                            <h6 class="ms-3 fw-500 text-sm">Loretta Myers</h6>
+                          </td>
+                          <td data-label="Product and Services ID">PO-3</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#ScopeModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Product and Services Name">
+                            <h6 class="ms-3 fw-500 text-sm">Carrie Aguilar</h6>
+                          </td>
+                          <td data-label="Product and Services ID">PO-4</td>
+                          <td data-label="Edit"><a href="" class="text-decoration-none fw-600 text-light-gray"
+                              data-bs-toggle="modal" data-bs-target="#ScopeModal">Edit</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="tab-pane" id="emailPreferences" role="tabpanel" aria-labelledby="emailPreferences-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Send Email Preferences</h2>
+                    </div>
+                    <button type="button" class="btn ouline-white btn-fill me-md-3 mt-3 mt-md-0" data-bs-toggle="modal"
+                      data-bs-target="#addContactModal">+ New Sender</button>
+                  </div>
+
+                  <table class="table border border-2 mt-3">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email Address</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="d-flex">malmohaimeed2 <p class="bg-success text-uppercase ms-2 px-1 text-white">
+                            Primary</p>
+                        </td>
+                        <td>malmohaimeed2@gmail.com</td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <a href=""><i class="icon icon-edit"></i></a>
+                            <a href="" class="ms-3"><i class="icon icon-delete"></i></a>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="Statement" role="tabpanel" aria-labelledby="Statement-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Customer Statement</h2>
+                    </div>
+                    <button type="button" class="btn ouline-white btn-fill me-md-3 mt-3 mt-md-0"
+                      onclick="window.location.href='./fm-setting-quote-notification.html'">+ New</button>
+                  </div>
+                  <table class="table border border-2">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Subject and Content</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="text-info">Default</p>
+                          <p class="text-success">Default Template</p>
+                        </td>
+                        <td>
+                          <p>Quote - %EstimateNumber% is awaiting your approval</p>
+                          <p><a href="./fm-setting-quote-notification.html" class="text-decoration-none">Show Mail
+                              Content</a> | <a href="./fm-setting-quote-notification.html"
+                              class="text-decoration-none">Attach File(s)</a></p>
+                        </td>
+                        <td><button type="button"
+                            class="btn ouline-white border border-2 me-md-3 mt-3 mt-md-0">Clone</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="quoteNotification" role="tabpanel" aria-labelledby="quoteNotification-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Quote Notification</h2>
+                    </div>
+                    <button type="button" class="btn ouline-white btn-fill me-md-3 mt-3 mt-md-0"
+                      onclick="window.location.href='./fm-setting-quote-notification.html'">+ New</button>
+                  </div>
+                  <table class="table border border-2">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Subject and Content</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="text-info">Default</p>
+                          <p class="text-success">Default Template</p>
+                        </td>
+                        <td>
+                          <p>Quote - %EstimateNumber% is awaiting your approval</p>
+                          <p><a href="./fm-setting-quote-notification.html" class="text-decoration-none">Show Mail
+                              Content</a> | <a href="./fm-setting-quote-notification.html"
+                              class="text-decoration-none">Attach File(s)</a></p>
+                        </td>
+                        <td><button type="button"
+                            class="btn ouline-white border border-2 me-md-3 mt-3 mt-md-0">Clone</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="invoiceNotification" role="tabpanel"
+                  aria-labelledby="invoiceNotification-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Invoice Notification</h2>
+                    </div>
+                    <button type="button" class="btn ouline-white btn-fill me-md-3 mt-3 mt-md-0"
+                      onclick="window.location.href='./fm-setting-quote-notification.html'">+ New</button>
+                  </div>
+                  <table class="table border border-2">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Subject and Content</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="text-info">Default</p>
+                          <p class="text-success">Default Template</p>
+                        </td>
+                        <td>
+                          <p>Quote - %EstimateNumber% is awaiting your approval</p>
+                          <p><a href="./fm-setting-quote-notification.html" class="text-decoration-none">Show Mail
+                              Content</a> | <a href="./fm-setting-quote-notification.html"
+                              class="text-decoration-none">Attach File(s)</a></p>
+                        </td>
+                        <td><button type="button"
+                            class="btn ouline-white border border-2 me-md-3 mt-3 mt-md-0">Clone</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="Credit" role="tabpanel" aria-labelledby="Credit-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Credit Note Notification</h2>
+                    </div>
+                    <button type="button" class="btn ouline-white btn-fill me-md-3 mt-3 mt-md-0"
+                      onclick="window.location.href='./fm-setting-quote-notification.html'">+ New</button>
+                  </div>
+                  <table class="table border border-2">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Subject and Content</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="text-info">Default</p>
+                          <p class="text-success">Default Template</p>
+                        </td>
+                        <td>
+                          <p>Quote - %EstimateNumber% is awaiting your approval</p>
+                          <p><a href="./fm-setting-quote-notification.html" class="text-decoration-none">Show Mail
+                              Content</a> | <a href="./fm-setting-quote-notification.html"
+                              class="text-decoration-none">Attach File(s)</a></p>
+                        </td>
+                        <td><button type="button"
+                            class="btn ouline-white border border-2 me-md-3 mt-3 mt-md-0">Clone</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="Thankyou" role="tabpanel" aria-labelledby="Thankyou-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Payment Thank-you</h2>
+                    </div>
+                    <button type="button" class="btn ouline-white btn-fill me-md-3 mt-3 mt-md-0"
+                      onclick="window.location.href='./fm-setting-quote-notification.html'">+ New</button>
+                  </div>
+                  <table class="table border border-2">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Subject and Content</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="text-info">Default</p>
+                          <p class="text-success">Default Template</p>
+                        </td>
+                        <td>
+                          <p>Quote - %EstimateNumber% is awaiting your approval</p>
+                          <p><a href="./fm-setting-quote-notification.html" class="text-decoration-none">Show Mail
+                              Content</a> | <a href="./fm-setting-quote-notification.html"
+                              class="text-decoration-none">Attach File(s)</a></p>
+                        </td>
+                        <td><button type="button"
+                            class="btn ouline-white border border-2 me-md-3 mt-3 mt-md-0">Clone</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="Initiated" role="tabpanel" aria-labelledby="Initiated-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Payment Initiated</h2>
+                    </div>
+                    <button type="button" class="btn ouline-white btn-fill me-md-3 mt-3 mt-md-0"
+                      onclick="window.location.href='./fm-setting-quote-notification.html'">+ New</button>
+                  </div>
+                  <table class="table border border-2">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Subject and Content</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="text-info">Default</p>
+                          <p class="text-success">Default Template</p>
+                        </td>
+                        <td>
+                          <p>Quote - %EstimateNumber% is awaiting your approval</p>
+                          <p><a href="./fm-setting-quote-notification.html" class="text-decoration-none">Show Mail
+                              Content</a> | <a href="./fm-setting-quote-notification.html"
+                              class="text-decoration-none">Attach File(s)</a></p>
+                        </td>
+                        <td><button type="button"
+                            class="btn ouline-white border border-2 me-md-3 mt-3 mt-md-0">Clone</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane quotes-table" id="Quotes" role="tabpanel" aria-labelledby="Quotes-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Quote Templates</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="chart cursor-pointer" onclick="window.location.href='./fm-setting-quote-templates.html'">
+                        <div class="chart-box">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="./assets/images/amazon.jpg" class="rounded-circle w-25" alt="">
+                              <h6 class="fw-600 mt-2 fs-9">Zylkar Inc</h6>
+                              <p class="text-light-gray fs-9">
+                                4141 Hassan Drive
+                                <br>
+                                Pakistan
+                                <br>
+                                Ca USA Shall
+                                <br>
+                                12345
+                              </p>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-end">
+                                <h5 class="fw-600">Quote</h5>
+                                <p class="text-light-gray fs-9">Quote EST-17</p>
+                              </div>
+                            </div>
+                            <div class="col-6 mt-2">
+                              <p class="text-light-gray fs-9">Bill To</p>
+                              <p class="fw-600 fs-9">
+                                Rob & Joe Traders
+                                <br>
+                                Derah Dist., P.O.Box: 2922
+                                <br>
+                                Riyadh
+                                <br>
+                                94588 Riyadh
+                                <br>
+                                Saudi Arabia
+                              </p>
+                            </div>
+                            <div class="col-6 mt-2">
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Quote Date :</p>
+                                <p class="text-light-gray fs-9">09 May 2023</p>
+                              </div>
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Expiry Date :</p>
+                                <p class="text-light-gray fs-9">09 May 2023</p>
+                              </div>
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Reference# :</p>
+                                <p class="text-light-gray fs-9">SO-17</p>
+                              </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                              <table class="table">
+                                <thead>
+                                  <tr class="bg-dark">
+                                    <th scope="col" class="text-white fs-9">#</th>
+                                    <th scope="col" class="text-white fs-9">Item & Description</th>
+                                    <th scope="col" class="text-white fs-9">Qty</th>
+                                    <th scope="col" class="text-white fs-9">Rate</th>
+                                    <th scope="col" class="text-white fs-9">Discount</th>
+                                    <th scope="col" class="text-white fs-9">Amount</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row" class="fs-9">1</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Brochure Design</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Brochure Design Single Sided Color</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="fs-9">2</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Web Design Packages(Template) - Basic</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Custom Themes for your business. Inclusive of 10 
+                                          hours of marketing and annual training</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="fs-9">3</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Print Ad - Basic - Color</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Print Ad 1/8 size Color</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="col-8 ms-auto mt-2">
+                              <div class="row">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sub Total</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">630.00</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sample Tax1 (4.70%)</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">11.75</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sample Tax2 (7.00%)</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">21.00</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2 bg-light p-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9 fw-600">Total</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9 fw-600">SAR662.75</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="12 mt-2">
+                              <p class="fw-600 fs-9">Notes</p>
+                              <p class="text-light-gray fs-9">Looking forward for your business.</p>
+                              <p class="fw-600 mt-3 fs-9">Terms & Conditions</p>
+                              <p class="text-light-gray fs-9">Your company's Terms and Conditions will be displayed here. You can add it in the Estimate Preferences page under Settings.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 ps-0">
+                      <div class="border-dots w-100 h-100 rounded d-flex align-items-center p-3">
+                        <div>
+                          <h5>New Template</h5>
+                          <p class="text-light-gray mt-2">Click to add a template from our gallery.
+                            You can customer the template title, columns, and headers in line item table.                          
+                          </p>
+                          <button type="button" class="btn ouline-white btn-fill wsm-100 mt-3">+ New</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane quotes-table" id="Invoices" role="tabpanel" aria-labelledby="Invoices-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Invoices Templates</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="chart cursor-pointer" onclick="window.location.href='./fm-setting-invoices-templates.html'">
+                        <div class="chart-box">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="./assets/images/amazon.jpg" class="rounded-circle w-25" alt="">
+                              <h6 class="fw-600 mt-2 fs-9">Zylkar Inc</h6>
+                              <p class="text-light-gray fs-9">
+                                4141 Hassan Drive
+                                <br>
+                                Pakistan
+                                <br>
+                                Ca USA Shall
+                                <br>
+                                12345
+                              </p>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-end">
+                                <h5 class="fw-600">Quote</h5>
+                                <p class="text-light-gray fs-9">Quote EST-17</p>
+                              </div>
+                            </div>
+                            <div class="col-6 mt-2">
+                              <p class="text-light-gray fs-9">Bill To</p>
+                              <p class="fw-600 fs-9">
+                                Rob & Joe Traders
+                                <br>
+                                Derah Dist., P.O.Box: 2922
+                                <br>
+                                Riyadh
+                                <br>
+                                94588 Riyadh
+                                <br>
+                                Saudi Arabia
+                              </p>
+                            </div>
+                            <div class="col-6 mt-2">
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Quote Date :</p>
+                                <p class="text-light-gray fs-9">09 May 2023</p>
+                              </div>
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Expiry Date :</p>
+                                <p class="text-light-gray fs-9">09 May 2023</p>
+                              </div>
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Reference# :</p>
+                                <p class="text-light-gray fs-9">SO-17</p>
+                              </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                              <table class="table">
+                                <thead>
+                                  <tr class="bg-dark">
+                                    <th scope="col" class="text-white fs-9">#</th>
+                                    <th scope="col" class="text-white fs-9">Item & Description</th>
+                                    <th scope="col" class="text-white fs-9">Qty</th>
+                                    <th scope="col" class="text-white fs-9">Rate</th>
+                                    <th scope="col" class="text-white fs-9">Discount</th>
+                                    <th scope="col" class="text-white fs-9">Amount</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row" class="fs-9">1</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Brochure Design</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Brochure Design Single Sided Color</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="fs-9">2</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Web Design Packages(Template) - Basic</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Custom Themes for your business. Inclusive of 10 
+                                          hours of marketing and annual training</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="fs-9">3</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Print Ad - Basic - Color</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Print Ad 1/8 size Color</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="col-8 ms-auto mt-2">
+                              <div class="row">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sub Total</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">630.00</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sample Tax1 (4.70%)</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">11.75</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sample Tax2 (7.00%)</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">21.00</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2 bg-light p-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9 fw-600">Total</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9 fw-600">SAR662.75</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="12 mt-2">
+                              <p class="fw-600 fs-9">Notes</p>
+                              <p class="text-light-gray fs-9">Looking forward for your business.</p>
+                              <p class="fw-600 mt-3 fs-9">Terms & Conditions</p>
+                              <p class="text-light-gray fs-9">Your company's Terms and Conditions will be displayed here. You can add it in the Estimate Preferences page under Settings.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 ps-0">
+                      <div class="border-dots w-100 h-100 rounded d-flex align-items-center p-3">
+                        <div>
+                          <h5>New Template</h5>
+                          <p class="text-light-gray mt-2">Click to add a template from our gallery.
+                            You can customer the template title, columns, and headers in line item table.                          
+                          </p>
+                          <button type="button" class="btn ouline-white btn-fill wsm-100 mt-3">+ New</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane quotes-table" id="CreditNote" role="tabpanel" aria-labelledby="CreditNote-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Credit Note Templates</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="chart cursor-pointer" onclick="window.location.href='./fm-setting-credit-note-templates.html'">
+                        <div class="chart-box">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="./assets/images/amazon.jpg" class="rounded-circle w-25" alt="">
+                              <h6 class="fw-600 mt-2 fs-9">Zylkar Inc</h6>
+                              <p class="text-light-gray fs-9">
+                                4141 Hassan Drive
+                                <br>
+                                Pakistan
+                                <br>
+                                Ca USA Shall
+                                <br>
+                                12345
+                              </p>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-end">
+                                <h5 class="fw-600">Quote</h5>
+                                <p class="text-light-gray fs-9">Quote EST-17</p>
+                              </div>
+                            </div>
+                            <div class="col-6 mt-2">
+                              <p class="text-light-gray fs-9">Bill To</p>
+                              <p class="fw-600 fs-9">
+                                Rob & Joe Traders
+                                <br>
+                                Derah Dist., P.O.Box: 2922
+                                <br>
+                                Riyadh
+                                <br>
+                                94588 Riyadh
+                                <br>
+                                Saudi Arabia
+                              </p>
+                            </div>
+                            <div class="col-6 mt-2">
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Quote Date :</p>
+                                <p class="text-light-gray fs-9">09 May 2023</p>
+                              </div>
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Expiry Date :</p>
+                                <p class="text-light-gray fs-9">09 May 2023</p>
+                              </div>
+                              <div class="d-flex align-items-center justify-content-between mb-2">
+                                <p class="text-light-gray fs-9">Reference# :</p>
+                                <p class="text-light-gray fs-9">SO-17</p>
+                              </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                              <table class="table">
+                                <thead>
+                                  <tr class="bg-dark">
+                                    <th scope="col" class="text-white fs-9">#</th>
+                                    <th scope="col" class="text-white fs-9">Item & Description</th>
+                                    <th scope="col" class="text-white fs-9">Qty</th>
+                                    <th scope="col" class="text-white fs-9">Rate</th>
+                                    <th scope="col" class="text-white fs-9">Discount</th>
+                                    <th scope="col" class="text-white fs-9">Amount</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row" class="fs-9">1</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Brochure Design</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Brochure Design Single Sided Color</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="fs-9">2</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Web Design Packages(Template) - Basic</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Custom Themes for your business. Inclusive of 10 
+                                          hours of marketing and annual training</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="fs-9">3</th>
+                                    <td>
+                                      <div>
+                                        <h6 class="fw-600 fs-9">Print Ad - Basic - Color</h6>
+                                        <p class="fw-600 text-light-gray fs-9">Print Ad 1/8 size Color</p>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h6 class="fw-600 fs-9">1.00</h6>
+                                      <p class="fw-600 text-light-gray fs-9">Nos</p>
+                                    </td>
+                                    <td class="fs-9">300.00</td>
+                                    <td class="fs-9">0.00</td>
+                                    <td class="fs-9">300.00</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="col-8 ms-auto mt-2">
+                              <div class="row">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sub Total</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">630.00</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sample Tax1 (4.70%)</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">11.75</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">Sample Tax2 (7.00%)</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9">21.00</p>
+                                </div>
+                              </div>
+                              <div class="row mt-2 bg-light p-2">
+                                <div class="col-6 text-end">
+                                  <p class="fs-9 fw-600">Total</p>
+                                </div>
+                                <div class="col-6 text-end">
+                                  <p class="fs-9 fw-600">SAR662.75</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="12 mt-2">
+                              <p class="fw-600 fs-9">Notes</p>
+                              <p class="text-light-gray fs-9">Looking forward for your business.</p>
+                              <p class="fw-600 mt-3 fs-9">Terms & Conditions</p>
+                              <p class="text-light-gray fs-9">Your company's Terms and Conditions will be displayed here. You can add it in the Estimate Preferences page under Settings.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 ps-0">
+                      <div class="border-dots w-100 h-100 rounded d-flex align-items-center p-3">
+                        <div>
+                          <h5>New Template</h5>
+                          <p class="text-light-gray mt-2">Click to add a template from our gallery.
+                            You can customer the template title, columns, and headers in line item table.                          
+                          </p>
+                          <button type="button" class="btn ouline-white btn-fill wsm-100 mt-3">+ New</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane " id="taxRates" role="tabpanel" aria-labelledby="taxRates-tab">
+                  <div class="page-main-title">
+                    <div class="heading">
+                      <h2>Tax Rates</h2>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="search-form wsm-100">
+                        <form action="">
+                          <div class="form-group">
+                            <input class="form-control wsm-100 mt-3 mt-md-0" type="text" placeholder="Search order, invoice, email, company…" aria-label="Search">
+                            <i class="icon icon-search-form"></i>
+                          </div>
+                        </form>
+                      </div>
+                      <button type="button" class="btn ouline-white btn-fill wsm-100 mt-3 mt-md-0 ms-md-2" data-bs-toggle="modal" data-bs-target="#addTaxModal">Add Tax</button>
+                    </div>
+                  </div>
+                  <div class="invoice-table tablepanel mt-3 invoice-table-product">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            Tax Name
+                          </th>
+                          <th scope="col">Discreption</th>
+                          <th scope="col">Type</th>
+                          <th scope="col">Rate</th>
+                        </tr>
+                      </thead>
+                      <tbody class="right-content interest-body" style="display: table-row-group;">
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-001</h6>
+                          </td>
+                          <td data-label="Discreption">Petty Cash</td>
+                          <td data-label="Type"><span class="finalized-status">Assets</span></td>
+                          <td data-label="Rate">15%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-002</h6>
+                          </td>
+                          <td data-label="Discreption">Account receivable</td>
+                          <td data-label="Type"><span class="finalized-status">Assets</span></td>
+                          <td data-label="Rate">10%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-003</h6>
+                          </td>
+                          <td data-label="Discreption">Credit Card</td>
+                          <td data-label="Type"><span class="finalized-status">Liabilities</span></td>
+                          <td data-label="Rate">0%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-004</h6>
+                          </td>
+                          <td data-label="Discreption">Bank Loan</td>
+                          <td data-label="Type"><span class="finalized-status">Liabilities</span></td>
+                          <td data-label="Rate">0%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-005</h6>
+                          </td>
+                          <td data-label="Discreption">Cost Of Goods</td>
+                          <td data-label="Type"><span class="finalized-status">Expenses</span></td>
+                          <td data-label="Rate">0%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-006</h6>
+                          </td>
+                          <td data-label="Discreption">General Expenses</td>
+                          <td data-label="Type"><span class="finalized-status">Expenses</span></td>
+                          <td data-label="Rate">0%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-006</h6>
+                          </td>
+                          <td data-label="Discreption">Subscription</td>
+                          <td data-label="Type"><span class="finalized-status">Expenses</span></td>
+                          <td data-label="Rate">0%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-007</h6>
+                          </td>
+                          <td data-label="Discreption">Sales</td>
+                          <td data-label="Type"><span class="finalized-status">Sales</span></td>
+                          <td data-label="Rate">0%</td>
+                        </tr>
+                        <tr>
+                          <td scope="row" data-label="Tax Name" class="ps-5">
+                            <span class="check-tasks">
+                              <div class="checkbox relative">
+                                <label class="absolute">
+                                  <input type="checkbox" data-ng-model="example.check">
+                                  <span class="box"></span>
+                                </label>
+                              </div>
+                            </span>
+                            <h6 class="fw-500 text-sm">1-008</h6>
+                          </td>
+                          <td data-label="Discreption">Vat</td>
+                          <td data-label="Type"><span class="finalized-status">Liabilities</span></td>
+                          <td data-label="Rate">0%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="invoice-pagination d-flex mt-3 justify-content-between align-items-center flex-colume-sm">
+                    <div class="d-flex align-items-center">
+                      <p class="text-sm">Showing</p>
+                      <select id="cars" class="border-1 me-3 ms-2 border-radius p-2">
+                        <option value="volvo">15</option>
+                        <option value="saab">25</option>
+                        <option value="opel">35</option>
+                        <option value="audi">50</option>
+                      </select>
+                      <span class="text-light-gray text-sm">items per page</span>
+                    </div>
+                    <div class="pagination-right d-flex align-items-center gap-4 mt-4 mt-md-0">
+                      <button class="btn pagination-btn active">1</button>
+                      <button class="btn pagination-btn">2</button>
+                      <a class="text-light-gray text-decoration-none">Next</a>
+                      <a class="text-light-gray text-decoration-none">End</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="modal right fade" id="userForm" tabindex="-1" aria-labelledby="interviewLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Add new User</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-light customer-add-form">
+            <form>
+              <label for="Customer-name" class="d-block mb-2">User Name</label>
+              <input type="text" placeholder="Please Insert User Name" class="form-input w-100">
+              <label for="Project-id" class="d-block my-2">Department</label>
+              <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                <option value="Manager">Owner</option>
+                <option value="Manager">Admin</option>
+                <option value="Urdu">Extended</option>
+                <option value="Hindi">Standard</option>
+                <option value="Punjabi">Limited</option>
+              </select>
+              <label for="ProjectSummary" class="d-block my-2">User Phone Number</label>
+              <input type="text" placeholder="Enter a User Phone Number" class="form-input w-100">
+              <label for="ProjectSummary" class="d-block my-2">User Email</label>
+              <input type="text" placeholder="Enter a User Email" class="form-input w-100">
+              <label for="ProjectSummary" class="d-block my-2">User Position</label>
+              <input type="text" placeholder="Enter a User Position" class="form-input w-100">
+              <label for="ProjectSummary" class="d-block my-2">Role</label>
+              <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                <option value="Manager">Owner</option>
+                <option value="Manager">Admin</option>
+                <option value="Urdu">Extended</option>
+                <option value="Hindi">Standard</option>
+                <option value="Punjabi">Limited</option>
+              </select>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-primary px-5 py-2 text-uppercase">Add</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal right fade" id="SettingForm" tabindex="-1" aria-labelledby="interviewLabel" aria-hidden="true">
+      <div class="modal-dialog width-50 wsm-95">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Profile settings</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-light customer-add-form">
+            <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-uppercase active" id="general-tab" data-bs-toggle="tab"
+                  data-bs-target="#general" type="button" role="tab" aria-controls="general"
+                  aria-selected="false">general</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-uppercase" id="security-tab" data-bs-toggle="tab"
+                  data-bs-target="#security" type="button" role="tab" aria-controls="security"
+                  aria-selected="false">security</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-uppercase" id="billing-tab" data-bs-toggle="tab" data-bs-target="#billing"
+                  type="button" role="tab" aria-controls="billing" aria-selected="false">billing</button>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane py-4 active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                <form>
+                  <div class="upload-file">
+                    <div class="file-upload">
+                      <figure>
+                        <img id="chosen-image">
+                        <figcaption id="file-name">
+                        </figcaption>
+                      </figure>
+                      <input type="file" id="upload-button" accept="image/*" />
+                      <label for="upload-button">
+                        Add Image
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="name" class="fw-bold mt-3 mb-2">Full Name</label>
+                      <input type="text" name="name" id="name" placeholder="Enter a Full Name"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <label for="email" class="fw-bold mt-3 mb-2">Email</label>
+                      <input type="email" name="email" id="email" placeholder="Enter a Email"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <label for="language" class="fw-bold mt-3 mb-2">Language</label>
+                      <select name="language" id="language" class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="English">English</option>
+                        <option value="Urdu">Urdu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Punjabi">Punjabi</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="role" class="fw-bold mt-3 mb-2">Role</label>
+                      <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="Manager">Manager</option>
+                        <option value="Urdu">Urdu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Punjabi">Punjabi</option>
+                      </select>
+                      <label for="phone" class="fw-bold mt-3 mb-2">Phone</label>
+                      <input type="tel" name="phone" id="phone" placeholder="Enter a Phone Number"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane py-4" id="security" role="tabpanel" aria-labelledby="security-tab">
+                <h5 class="fw-600 mb-3">Change Password</h5>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="password" class="fw-bold mt-3 mb-2">Current Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="password" class="fw-bold mt-3 mb-2">New Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                  </div>
+                </div>
+                <h5 class="fw-600 mb-3">Security Questions</h5>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="questions" class="fw-bold mt-3 mb-2">Questions #1</label>
+                    <select name="questions" id="questions" class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <option value="questions">What is your friend's name</option>
+                      <option value="Admin">Admin</option>
+                      <option value="Admin +">Admin +</option>
+                    </select>
+                    <label for="questions" class="fw-bold mt-3 mb-2">Questions #1</label>
+                    <select name="questions" id="questions" class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <option value="questions">What is your friend's name</option>
+                      <option value="Admin">Admin</option>
+                      <option value="Admin +">Admin +</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="answer" class="fw-bold mt-3 mb-2">Answer</label>
+                    <input type="text" name="answer" id="answer" placeholder="Enter Your Answer"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                    <label for="answer" class="fw-bold mt-3 mb-2">Answer</label>
+                    <input type="text" name="answer" id="answer" placeholder="Enter Your Answer"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane py-4" id="billing" role="tabpanel" aria-labelledby="billing-tab">
+                <h5 class="fw-600 mb-3">Billing Settings</h5>
+                <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                  <p>Payment Method</p>
+                  <div class="d-flex align-items-center">
+                    <p>MasterCard ending in 4078,exp: 08/2020</p>
+                    <a href="./pm-billing.html" class="text-decoration-none ms-3">Update</a>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                  <p>Billing Period</p>
+                  <div class="d-flex align-items-center">
+                    <p>Plan billed monthly</p>
+                    <a href="./pm-billing.html" class="text-decoration-none ms-3">Update</a>
+                  </div>
+                </div>
+                <h5 class="fw-600 my-3">Payment History</h5>
+                <div class="border rounded">
+                  <div class="d-flex align-items-center justify-content-between border-bottom p-3">
+                    <div class="d-flex align-items-center">
+                      <p class="fw-bold me-3">21 Oct 2018</p>
+                      <p>IOTask Pro (9/21/2018 to 10/21/2019)</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <p>$28.00</p>
+                      <a href="#" class="text-decoration-none ms-3">Invoice</a>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between border-bottom p-3">
+                    <div class="d-flex align-items-center">
+                      <p class="fw-bold me-3">21 Oct 2018</p>
+                      <p>IOTask Pro (9/21/2018 to 10/21/2019)</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <p>$28.00</p>
+                      <a href="#" class="text-decoration-none ms-3">Invoice</a>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between p-3">
+                    <div class="d-flex align-items-center">
+                      <p class="fw-bold me-3">21 Oct 2018</p>
+                      <p>IOTask Pro (9/21/2018 to 10/21/2019)</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <p>$28.00</p>
+                      <a href="#" class="text-decoration-none ms-3">Invoice</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Update</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ScopeModal" tabindex="-1" aria-labelledby="ScopeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ScopeModalLabel">Edit Product and Services</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <label for="name" class="fw-bold mt-3 mb-2">Edit Product and Services Name</label>
+              <input type="text" name="name" id="name" placeholder="Edit Product and Services Name"
+                class="d-block w-100 border border-2 rounded px-4 py-2">
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-primary text-uppercase">Save</button>
+            <button type="button" class="btn border border-2 text-uppercase" data-bs-dismiss="modal">Cencel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="approvalModal" tabindex="-1" aria-labelledby="approvalModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="approvalModalLabel">Approval Setting</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <label for="role" class="fw-bold mt-3 mb-2">Department Name</label>
+              <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+                <option value="Manager">Select Department</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Punjabi">Punjabi</option>
+              </select>
+              <label for="role" class="fw-bold mt-3 mb-2">Feature</label>
+              <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+                <option value="Manager">Add Project</option>
+                <option value="Urdu">Edit Project</option>
+                <option value="Hindi">Add Customer</option>
+                <option value="Punjabi">Edit Customer</option>
+                <option value="Punjabi">Add Project stages</option>
+                <option value="Punjabi">Edit Project Stages</option>
+                <option value="Punjabi">Add Project Revenue Plan</option>
+                <option value="Punjabi">Edit Project Revenue Plan</option>
+                <option value="Punjabi">Add Project COCs</option>
+                <option value="Punjabi">Add Project POs</option>
+                <option value="Punjabi">Add Project Contact</option>
+                <option value="Punjabi">Edit Project Contact</option>
+                <option value="Punjabi">Add Project Risks</option>
+                <option value="Punjabi">Edit Project Risks</option>
+                <option value="Punjabi">Add Project Issues</option>
+                <option value="Punjabi">Edit Project Issues</option>
+                <option value="Punjabi">Add Project Stakeholders</option>
+                <option value="Punjabi">Edit Project Stakeholders</option>
+                <option value="Punjabi">Add Project Documents</option>
+                <option value="Punjabi">Edit Project Documents</option>
+              </select>
+              <label for="role" class="fw-bold mt-3 mb-2">Role</label>
+              <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                <option value="Manager">Admin</option>
+                <option value="Urdu">Extended</option>
+                <option value="Hindi">Standard</option>
+                <option value="Punjabi">Limited</option>
+              </select>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill text-uppercase">Save</button>
+            <button type="button" class="btn border border-2 text-uppercase" data-bs-dismiss="modal">cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="PaymentModal" tabindex="-1" aria-labelledby="PaymentModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="PaymentModalLabel">Payment</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Payment Terms</label>
+            <input type="text" name="name" id="name" placeholder="Enter Payment Term"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Save</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="TaxModal" tabindex="-1" aria-labelledby="TaxModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TaxModalLabel">Tax</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Tax Type</label>
+            <input type="text" name="name" id="name" placeholder="Enter Tax Type"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Save</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="AccountsModal" tabindex="-1" aria-labelledby="AccountsModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="AccountsModalLabel">Accounts</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Account</label>
+            <input type="text" name="name" id="name" placeholder="Enter Account"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Save</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="LiabilityAccountModal" tabindex="-1" aria-labelledby="LiabilityAccountModalLabel"
+      style="display: none;" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="LiabilityAccountModalLabel">Liability</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Liability Accounts</label>
+            <input type="text" name="name" id="name" placeholder="Cost of goods"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Save</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="DirectCostModal" tabindex="-1" aria-labelledby="DirectCostModalLabel"
+      style="display: none;" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="DirectCostModalLabel">Direct Cost Salaries</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Direct Cost Salaries</label>
+            <input type="text" name="name" id="name" placeholder="Cost of goods"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Save</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="BonusesModal" tabindex="-1" aria-labelledby="BonusesModalLabel" style="display: none;"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="BonusesModalLabel">Bonuses</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Bonuses</label>
+            <input type="text" name="name" id="name" placeholder="Cost of goods"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Save</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="DeductionModal" tabindex="-1" aria-labelledby="DeductionModalLabel"
+      style="display: none;" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="DeductionModalLabel">Deduction</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Deduction</label>
+            <input type="text" name="name" id="name" placeholder="Other Income"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Save</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="addContactModal" tabindex="-1" aria-labelledby="addContactModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addContactModalLabel">Add Additional Contact</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name" class="fw-bold mt-3 mb-2">Name</label>
+            <input type="text" name="name" id="name" class="d-block w-100 border border-2 rounded px-4 py-2">
+            <label for="name" class="fw-bold mt-3 mb-2">Email</label>
+            <input type="email" name="name" id="name" class="d-block w-100 border border-2 rounded px-4 py-2">
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill text-uppercase">Save</button>
+            <button type="button" class="btn border border-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="addTaxModal" tabindex="-1" aria-labelledby="addTaxModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addTaxModalLabel">Add Tax</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <label for="name" class="fw-bold mt-3 mb-2">Tax name</label>
+          <input type="text" name="name" id="name" placeholder="Tax Name" class="d-block w-100 border border-2 rounded px-4 py-2">
+          <label for="name" class="fw-bold mt-3 mb-2">Description</label>
+          <input type="text" name="name" id="name" placeholder="Tax Discerption" class="d-block w-100 border border-2 rounded px-4 py-2">
+          <label for="name" class="fw-bold mt-3 mb-2">Tax Type</label>
+          <select name="language" id="language" class="d-block w-100 border border-2 rounded px-4 py-2">
+            <option value="English">Tax Type</option>
+            <option value="Urdu">Sales</option>
+            <option value="Hindi">Purchase</option>
+            <option value="Punjabi">Reverse charge</option>
+          </select>
+          <label for="name" class="fw-bold mt-3 mb-2">Select Type</label>
+          <select name="language" id="language" class="d-block w-100 border border-2 rounded px-4 py-2">
+            <option value="English">Tax Type</option>
+            <option value="Urdu">Sales</option>
+            <option value="Hindi">Purchase</option>
+            <option value="Hindi">Reverse charge</option>
+          </select>
+          <label for="name" class="fw-bold mt-3 mb-2">Rate</label>
+          <input type="text" name="name" id="name" placeholder="Tax Rate" class="d-block w-100 border border-2 rounded px-4 py-2">          
+        </form> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-fill text-uppercase">Add</button>
+        <button type="button" class="btn text-uppercase border border-2" data-bs-dismiss="modal">cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <!-- JavaScript
+================================================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src='https://cdn.ckeditor.com/ckeditor5/28.0.0/classic/ckeditor.js'></script>
+  <script src="./assets/js/editor.js"></script>
+  <script>
+    $(".popup-button").click(function () {
+      $(".popup-form").addClass("d-block");
+    });
+    $(".remove-popup").click(function () {
+      $(".popup-form").removeClass("d-block");
+    });
+
+
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+
+    const phoneInputField1 = document.querySelector("#phone-1");
+    const phoneInput1 = window.intlTelInput(phoneInputField1, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+
+
+    document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
+      const dropZoneElement = inputElement.closest(".drop-zone");
+
+      dropZoneElement.addEventListener("click", (e) => {
+        inputElement.click();
+      });
+
+      inputElement.addEventListener("change", (e) => {
+        if (inputElement.files.length) {
+          updateThumbnail(dropZoneElement, inputElement.files[0]);
+        }
+      });
+
+      dropZoneElement.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        dropZoneElement.classList.add("drop-zone--over");
+      });
+
+      ["dragleave", "dragend"].forEach((type) => {
+        dropZoneElement.addEventListener(type, (e) => {
+          dropZoneElement.classList.remove("drop-zone--over");
+        });
+      });
+
+      dropZoneElement.addEventListener("drop", (e) => {
+        e.preventDefault();
+
+        if (e.dataTransfer.files.length) {
+          inputElement.files = e.dataTransfer.files;
+          updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
+        }
+
+        dropZoneElement.classList.remove("drop-zone--over");
+      });
+    });
+
+    /**
+     * Updates the thumbnail on a drop zone element.
+     *
+     * @param {HTMLElement} dropZoneElement
+     * @param {File} file
+     */
+    function updateThumbnail(dropZoneElement, file) {
+      let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
+
+      // First time - remove the prompt
+      if (dropZoneElement.querySelector(".drop-zone__prompt")) {
+        dropZoneElement.querySelector(".drop-zone__prompt").remove();
+      }
+
+      // First time - there is no thumbnail element, so lets create it
+      if (!thumbnailElement) {
+        thumbnailElement = document.createElement("div");
+        thumbnailElement.classList.add("drop-zone__thumb");
+        dropZoneElement.appendChild(thumbnailElement);
+      }
+
+      thumbnailElement.dataset.label = file.name;
+
+      // Show thumbnail for image files
+      if (file.type.startsWith("image/")) {
+        const reader = new FileReader();
+
+        reader.readAsDataURL(file);
+        reader.onload = () => {
+          thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
+        };
+      } else {
+        thumbnailElement.style.backgroundImage = null;
+      }
+    }
+  </script>
+
+</body>
+
+</html>

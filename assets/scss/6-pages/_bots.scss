@@ -1,0 +1,120 @@
+.board-tab {
+  position: relative;
+
+  .bot-message {
+    width: 180px;
+    background: #fff;
+    text-align: center;
+    margin: 40px auto 0;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -128%;
+      left: 45%;
+      width: 2px;
+      height: 100px;
+      background-color: #775DA6;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 169px;
+    left: 8%;
+    width: 57%;
+    height: 2px;
+    background-color: #775DA6;
+    @include grid-sm-down{
+    left: 15%;
+    width: 67%;
+    }
+  }
+
+  .bot-message-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    .bot-click {
+      width: 180px;
+      background: #fff;
+      text-align: center;
+      position: relative;
+
+      &.bot-click-after {
+        &::after {
+          content: "";
+          position: absolute;
+          top: -65%;
+          left: 45%;
+          width: 2px;
+          height: 50px;
+          background-color: #775DA6;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -68%;
+        left: 45%;
+        height: 50px;
+        border-left: 2px dotted #775DA6;
+      }
+    }
+  }
+  .bot-message-add-new{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    .add-message{
+      padding: 15px 20px;
+      border: 1px dotted #775DA6;
+      cursor: pointer;
+    }
+  }
+
+
+  .preview-message{
+    width: 290px;
+    height: 70vh;
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 111;
+    top: 0%;
+    right: 24%;
+    display: none;
+  }
+  .keywords{
+    width: 290px;
+    height: auto;
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 111;
+    top: 0%;
+    right: 24%;
+    display: none;
+
+    .nav-tabs{
+      .nav-item{
+        width: 50%;
+        margin: 0;
+        .nav-link{
+          width: 100%;
+          &.active{
+            border: none !important;
+            background: #a7a1b14b !important;
+            border-radius: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

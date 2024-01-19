@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rhombus</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+
+  <link href="https://example.com/" rel="canonical" />
+  <!-- preferred URL - change for you site -->
+
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css" /> -->
+  <link href="./assets/css/main.css" rel="stylesheet" />
+  <link href="./assets/css/responsive.css" rel="stylesheet" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/github.min.css'>
+</head>
+
+<body>
+  <section class="section-panel">
+    <div class="admin-wrapper">
+      <aside class="aside">
+        <div class="left-top">
+          <div class="sitepanel-toggler">
+            <div class="close skeleton">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="logo skeleton">
+              <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
+            </div>
+          </div>
+          <ul>
+            <li><a href="./pm-index.html" class="panel_link skeleton"><i class="icon icon-overviwe"></i><span>Dashboard</span></a></li>
+            <li class="nav-item panel-dropdown position-relative">
+              <a href="./pm-project-management.html" class="mb-auto panel_link skeleton"><i class="icon icon-project-menu"></i>
+                <span>Projects</span></a>
+              <div>
+                <a class="dropdown-btn nav-link dropdown-toggle position-absolute skeleton" href="" id="Setting-Dropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" style="top: 11px; right: 0;">
+                </a>
+                <ul class="Setting-Dropdown m-0" aria-labelledby="Setting-Dropdown">
+                  <li><a class="dropdown-item panel_link " href="./pm-project-overview.html"><i
+                        class="icon icon-project-menu"></i><span>project Overview</span></a></li>
+                  <li><a class="dropdown-item panel_link " href="./pm-project-performance.html"><i
+                        class="icon icon-project-menu"></i><span>project Performance</span></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link skeleton" href="#" id="Transactions-Dropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-financial"></i> <span>Financial Performance</span>
+              </a>
+              <ul class="transactions-dropdown" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="./pm-revenue-plan.html"><i
+                      class="icon icon-financial"></i><span>Revenue Plan</span></a></li>
+                <li><a class="dropdown-item panel_link " href="./pm-project-cocs.html"><i
+                      class="icon icon-financial"></i><span>COCs Overview</span></a></li>
+                <li><a class="dropdown-item panel_link " href="./pm-project-pos.html"><i
+                      class="icon icon-financial"></i><span>Project POs</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./pm-balance-sheet.html"><i
+                      class="icon icon-financial"></i><span>Balance Sheet</span></a></li>
+              </ul>
+            </li>
+            <li><a href="./pm-transferred-projects.html" class="panel_link skeleton"><i
+                  class="icon icon-transferred-projects bg-cover"></i>
+                <span>Transferred Projects</span></a></li>
+            <li><a href="./pm-report.html" class="panel_link skeleton"><i class="icon icon-reports"></i>
+                <span>Reports</span></a></li>
+            <li><a href="./pm-compnies-list.html" class="panel_link skeleton active_panel"><i
+                  class="icon icon-customer-profile-fill"></i>
+                <span>Customer Profile</span></a></li>
+            <li><a href="./pm-contact.html" class="panel_link skeleton"><i class="icon icon-collaboration"></i>
+                <span>Contacts</span></a></li>
+            <li><a href="./pm-applications-api.html" class="panel_link skeleton"><i class="icon icon-link-account"></i>
+                <span>Applications API</span></a></li>
+            <li class="nav-item panel-dropdown">
+              <a class="dropdown-btn nav-link dropdown-toggle panel_link skeleton" href="#" id="Business-Dropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="icon icon-settings"></i> <span>Setting</span>
+              </a>
+              <ul class="Business-Dropdown" aria-labelledby="Transactions-Dropdown">
+                <li><a class="dropdown-item panel_link " href="" data-bs-toggle="modal" data-bs-target="#SettingForm"><i
+                      class="icon icon-settings"></i> <span>Account</span></a></li>
+                <li><a class="dropdown-item panel_link" href="./pm-setting-general.html"><i
+                      class="icon icon-settings"></i> <span>General</span></a></li>
+              </ul>
+            </li>
+            <li><a href="./crm-overview-index.html" class="skeleton"><span>Move to CRM</span></a></li>
+            <li><a href="./pm-home-page.html" class="panel_link skeleton"><span>Home Page</span></a></li>
+            <li><a href="./admin-dashboard.html" class="skeleton"><span>Move to Admin</span></a></li>
+            <div class="open-button skeleton">
+              <i class="icon icon-right-arrow"></i>
+            </div>
+          </ul>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="top-nav bg-white justify-content-end">
+          <div class="sitepanel-toggler for-mobile">
+            <div class="close skeleton">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="logo skeleton">
+              <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
+            </div>
+          </div>
+          <!-- <div class="search-form d-none d-md-block">
+            <form action="">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Search..." aria-label="Search">
+                <i class="icon icon-search-form"></i>
+              </div>
+            </form>
+          </div> -->
+          <div class="about-profile">
+            <div class="d-none d-md-flex align-items-center skeleton">
+              <button type="button" class="btn ouline-white" data-bs-toggle="modal" data-bs-target="#userForm"><i
+                  class="icon icon-plus"></i> Add</button>
+              <a href=""><i class="icon icon-question"></i></a>
+              <div class="dropdown select-dropdown admin-notification">
+                <button class="btn dropdown-toggle text-dark border-0 m-0" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false" style="min-width: 50px !important;">
+                  <i class="icon icon-notification"></i>
+                </button>
+                <ul class="dropdown-menu min-w-320" aria-labelledby="dropdownMenuButton1">
+                  <div class="p-2 d-flex align-items-center justify-content-between border-bottom">
+                    <p>Notification</p>
+                    <a href="./pm-account-activities.html" class="text-decoration-none text-fill fw-600">See All</a>
+                  </div>
+                  <div class="p-2 border-bottom">
+                    <p class="text-light-gray"><b class="text-dark">Edit your information in a swipe</b> Sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                    <p class="text-light-gray mt-3">12 May, 2025</p>
+                  </div>
+                  <div class="p-2 border-bottom">
+                    <p class="text-light-gray"><b class="text-dark">Edit your information in a swipe</b> Sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                    <p class="text-light-gray mt-3">12 May, 2025</p>
+                  </div>
+                  <div class="p-2">
+                    <p class="text-light-gray"><b class="text-dark">Edit your information in a swipe</b> Sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                    <p class="text-light-gray mt-3">12 May, 2025</p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="dropdown select-dropdown admin-profile">
+              <button class="btn dropdown-toggle text-dark w-100 border-0 d-flex align-center ms-md-4 skeleton" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="profile-img me-2">
+                  <img class="img-fluid" src="./assets/images/profile.png" alt="">
+                </div>
+                <div class="admin-info d-none d-md-block">
+                  <h5 class="">Katie Pena</h5>
+                  <h6 class="">Admin</h6>
+                </div>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <div class="profile-images text-center">
+                  <img src="./assets/images/profile-2.png" alt="">
+                  <h6 class="text-small mt-2">Allen Moreno</h6>
+                  <p class="text-small text-light-gray">allenmoreno@gmail.com</p>
+                </div>
+                <li><a class="dropdown-item mt-3" href="./pm-edit-profile.html"><i class="icon icon-user-profile"></i>
+                    My Profile</a></li>
+                <li><a class="dropdown-item" href="./pm-profile-activities.html"><i class="icon icon-calender-2"></i>
+                    Actions</a></li>
+                <li><a class="dropdown-item" href="#"><i class="icon icon-question me-1"></i> FAQ</a></li>
+                <li><a class="dropdown-item" href="#"><i class="icon icon-power-off me-1"></i> Sign Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="page-main-title">
+            <div>
+              <h1 class="skeleton">Customer Profile</h1>
+            </div>
+            <div class="d-flex align-items-center flex-colume-sm wsm-100 skeleton">
+              <button type="button" class="btn ouline-white btn-fill me-md-2 wsm-100" data-bs-toggle="modal"
+                data-bs-target="#addChartButtonModal">Add Chart</button>
+              <button type="button" class="btn ouline-white btn-fill wsm-100 mt-3 mt-md-0" data-bs-toggle="modal"
+                data-bs-target="#businessForm">Add New Deal</button>
+            </div>
+          </div>
+          <div class="row w-100 m-0">
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-12 mb-4">
+                  <div class="sales-overview-invoices">
+                    <div class="invoice-body mt-0">
+                      <div class="invoice-desc">
+                        <p class="text-light-gray mb-2 text-small skeleton">Uploaded (34)</p>
+                        <h4 class="fw-bold skeleton">1,103.00 USD</h4>
+                      </div>
+                      <div class="invoice-desc">
+                        <p class="text-small skeleton">Awaiting Payment (9)</p>
+                        <h4 class="fw-bold skeleton">9,133.53 USD</h4>
+                      </div>
+                      <div class="invoice-desc">
+                        <p class="text-small skeleton">Awaiting Approval</p>
+                        <h4 class="fw-bold skeleton">24/7</h4>
+                      </div>
+                      <div class="invoice-desc">
+                        <p class="text-small skeleton">Total (43)</p>
+                        <h4 class="fw-bold skeleton">11,955.21 USD</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div>
+                    <div class="chart">
+                      <div class="chart-box h-100 d-flex justify-content-between flex-column">
+                        <div class="chart-head d-md-flex justify-content-between align-items-center">
+                          <div class="chart-title">
+                            <h5 class="fw-600 skeleton">Total cast in and out</h5>
+                          </div>
+                          <div class="d-flex justify-content-between flex-column">
+                            <div class="d-flex align-items-start justify-content-md-end  mt-3 mt-md-0 mb-md-0 mb-3 skeleton">
+                              <p class="fw-500 me-3 text-11"><span class="dot-shape bg-purple"></span> Cash In</p>
+                              <p class="fw-500 text-11"><span class="dot-shape bg-sky-blue"></span> Cash out</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="chart-content d-flex justify-content-between">
+                          <div class="chart-grap d-flex align-items-end">
+                            <!-- <img class="img-fluid" src="./assets/images/cast.png" alt=""> -->
+                            <div class="skeleton">
+                              <canvas id="doubleBars" class="wsm-100 w-100"
+                                style="display: block; box-sizing: border-box; height: 160px; width: 450px;"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="fw-600 my-3 skeleton">Project Scope of Work</p>
+                  <div class="rating-box m-0">
+                    <ul class="rating-row m-0">
+                      <li class="fw-500 skeleton">
+                        <span><i class="icon icon-fill-star"></i>Aged Reeivables Details</span>
+                      </li>
+                      <li class="fw-500 skeleton">
+                        <span><i class="icon icon-outline-star"></i>Aged Reeivables Summary</span>
+                        <span class="tag">New</span>
+                      </li>
+                      <li class="fw-500 skeleton">
+                        <span><i class="icon icon-outline-star"></i>Customer Invoice Report</span>
+                        <span class="tag">New</span>
+                      </li>
+                      <li class="fw-500 skeleton">
+                        <span><i class="icon icon-down-arrow"></i>More Reports</span>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3 p-md-0 pe-md-2 mt-3 mt-md-0">
+                  <div class="sales-overview-invoices min-height p-2">
+                    <a href="#" class="text-decoration-none fw-600 skeleton" data-bs-toggle="modal"
+                      data-bs-target="#risksIssueModal">Risks & Issues</a>
+                    <div
+                      class="d-flex align-items-center justify-content-between border p-2 mt-3 rounded cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <p class="text-11 text-light-gray skeleton">Low</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <p class="text-11 text-light-gray skeleton">Low</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <p class="text-11 text-light-gray skeleton">Low</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <p class="text-11 text-light-gray skeleton">Low</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <p class="text-11 text-light-gray skeleton">Low</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <p class="text-11 text-light-gray skeleton">Low</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-12 col-md-3 ps-md-0 mt-3 mt-md-0">
+                  <div class="sales-overview-invoices min-height p-2">
+                    <a href="#" class="text-decoration-none fw-600 skeleton" data-bs-toggle="modal"
+                      data-bs-target="#risksIssueModal">Project Stakehoders</a>
+                    <div
+                      class="d-flex align-items-center justify-content-between border p-2 mt-3 rounded cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="fw-600 text-11 skeleton">148</p>
+                        <p class="text-11 text-light-gray skeleton">Low</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="fw-600 text-11 skeleton">148</p>
+                        <p class="text-11 text-light-gray skeleton">Low</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="fw-600 text-11 skeleton">148</p>
+                        <p class="text-11 text-light-gray skeleton">Low</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="fw-600 text-11 skeleton">148</p>
+                        <p class="text-11 text-light-gray skeleton">Low</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="fw-600 text-11 skeleton">148</p>
+                        <p class="text-11 text-light-gray skeleton">Low</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border p-2 mt-2 cursor-pointer"
+                      data-bs-toggle="modal" data-bs-target="#updateModal">
+                      <div class="d-flex align-items-center project-information project-information-1">
+                        <div class="online-image skeleton">
+                          <img src="./assets/images/project-image.png" alt="/" class="w-25">
+                          <span class="online-dot"></span>
+                        </div>
+                        <div>
+                          <p class="text-small fw-600 skeleton">Research</p>
+                          <p class="text-11 text-light-gray skeleton">Risks</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="fw-600 text-11 skeleton">148</p>
+                        <p class="text-11 text-light-gray skeleton">Low</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="invoice-table mt-4 tablepanel">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr class="skeleton">
+                          <th scope="col">Owner</th>
+                          <th scope="col">Activity</th>
+                          <th scope="col">Completion</th>
+                          <th scope="col">Due Date</th>
+                          <th scope="col">Cost</th>
+                          <th scope="col">Comment</th>
+                          <th scope="col"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="skeleton">
+                          <td scope="row" data-label="Owner"><img src="./assets/images/amazon.jpg" alt=""></td>
+                          <td data-label="Activity">
+                            <h6 class="text-sm mt-2">Amazon Inc</h6>
+                          </td>
+                          <td data-label="Completion">
+                            <div class="progress-percentage mt-4 mt-md-3">
+                              <div class="progress-percentage-box">
+                                <!-- example starts here -->
+                                <div class="progress">
+                                  <div class="progress-bar darkblue" role="progressbar" aria-valuenow="0"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 67%;">
+                                    <span>67%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td data-label="Due Date"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">24 Feb 2019</span>
+                          </td>
+                          <td data-label="Cost"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">12,000.000</span>
+                          </td>
+                          <td data-label="Comment"><button type="button" class="btn ouline-white py-1 px-1 text-small"
+                              data-bs-toggle="modal" data-bs-target="#comment"><i class="icon icon-plus"></i>
+                              Add</button>
+                          </td>
+                          <td>
+                            <div class="btn-group border-end">
+                              <button type="button" class="btn p-2 border-none ms-4" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="dots d-flex align-items-center  m-0 p-0">
+                                  <span class="me-1"></span>
+                                  <span class="me-1 mt-0"></span>
+                                  <span class="mt-0"></span>
+                                </div>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-edit"></i>
+                                    Edit</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-inbox"></i>
+                                    Invitation Email</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-delete"></i>
+                                    Delete</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="skeleton">
+                          <td scope="row" data-label="Company name"><img src="./assets/images/dropbox.png" alt=""></td>
+                          <td data-label="Location">
+                            <h6 class="text-sm">Dropbox</h6>
+                          </td>
+                          <td data-label="Completion">
+                            <div class="progress-percentage mt-4 mt-md-3">
+                              <div class="progress-percentage-box">
+                                <!-- example starts here -->
+                                <div class="progress">
+                                  <div class="progress-bar darkblue" role="progressbar" aria-valuenow="0"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 67%;">
+                                    <span>67%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td data-label="Due Date"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">24 Feb 2019</span>
+                          </td>
+                          <td data-label="Cost"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">12,000.000</span>
+                          </td>
+                          <td data-label="Comment"><button type="button" class="btn ouline-white py-1 px-1 text-small"
+                              data-bs-toggle="modal" data-bs-target="#comment"><i class="icon icon-plus"></i>
+                              Add</button>
+                          </td>
+                          <td>
+                            <div class="btn-group border-end">
+                              <button type="button" class="btn p-2 border-none ms-4" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="dots d-flex align-items-center  m-0 p-0">
+                                  <span class="me-1"></span>
+                                  <span class="me-1 mt-0"></span>
+                                  <span class="mt-0"></span>
+                                </div>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-edit"></i>
+                                    Edit</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-inbox"></i>
+                                    Invitation Email</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-delete"></i>
+                                    Delete</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="skeleton">
+                          <td scope="row" data-label="Company name"><img src="./assets/images/apple.jpg" alt=""></td>
+                          <td data-label="Location">
+                            <h6 class="text-sm">Apple Inc.</h6>
+                          </td>
+                          <td data-label="Completion">
+                            <div class="progress-percentage mt-4 mt-md-3">
+                              <div class="progress-percentage-box">
+                                <!-- example starts here -->
+                                <div class="progress">
+                                  <div class="progress-bar darkblue" role="progressbar" aria-valuenow="0"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 67%;">
+                                    <span>67%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td data-label="Due Date"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">24 Feb 2019</span>
+                          </td>
+                          <td data-label="Cost"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">12,000.000</span>
+                          </td>
+                          <td data-label="Comment"><button type="button" class="btn ouline-white py-1 px-1 text-small"
+                              data-bs-toggle="modal" data-bs-target="#comment"><i class="icon icon-plus"></i>
+                              Add</button>
+                          </td>
+                          <td>
+                            <div class="btn-group border-end">
+                              <button type="button" class="btn p-2 border-none ms-4" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="dots d-flex align-items-center  m-0 p-0">
+                                  <span class="me-1"></span>
+                                  <span class="me-1 mt-0"></span>
+                                  <span class="mt-0"></span>
+                                </div>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-edit"></i>
+                                    Edit</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-inbox"></i>
+                                    Invitation Email</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-delete"></i>
+                                    Delete</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="skeleton">
+                          <td scope="row" data-label="Company name"><img src="./assets/images/mailchimp.jpg" alt="">
+                          </td>
+                          <td data-label="Location">
+                            <h6 class="text-sm">Mailchimp. Inc</h6>
+                          </td>
+                          <td data-label="Completion">
+                            <div class="progress-percentage mt-4 mt-md-3">
+                              <div class="progress-percentage-box">
+                                <!-- example starts here -->
+                                <div class="progress">
+                                  <div class="progress-bar darkblue" role="progressbar" aria-valuenow="0"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 67%;">
+                                    <span>67%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td data-label="Due Date"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">24 Feb 2019</span>
+                          </td>
+                          <td data-label="Cost"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">12,000.000</span>
+                          </td>
+                          <td data-label="Comment"><button type="button" class="btn ouline-white py-1 px-1 text-small"
+                              data-bs-toggle="modal" data-bs-target="#comment"><i class="icon icon-plus"></i>
+                              Add</button>
+                          </td>
+                          <td>
+                            <div class="btn-group border-end">
+                              <button type="button" class="btn p-2 border-none ms-4" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="dots d-flex align-items-center  m-0 p-0">
+                                  <span class="me-1"></span>
+                                  <span class="me-1 mt-0"></span>
+                                  <span class="mt-0"></span>
+                                </div>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-edit"></i>
+                                    Edit</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-inbox"></i>
+                                    Invitation Email</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-delete"></i>
+                                    Delete</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="skeleton">
+                          <td scope="row" data-label="Company name"><img src="./assets/images/google.jpg" alt=""></td>
+                          <td data-label="Location">
+                            <h6 class="text-sm">Google.Inc</h6>
+                          </td>
+                          <td data-label="Completion">
+                            <div class="progress-percentage mt-4 mt-md-3">
+                              <div class="progress-percentage-box">
+                                <!-- example starts here -->
+                                <div class="progress">
+                                  <div class="progress-bar darkblue" role="progressbar" aria-valuenow="0"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 67%;">
+                                    <span>67%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td data-label="Due Date"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">24 Feb 2019</span>
+                          </td>
+                          <td data-label="Cost"><span
+                              class="tag text-white mt-1 d-block text-center w-fit ms-auto ms-md-0">12,000.000</span>
+                          </td>
+                          <td data-label="Comment"><button type="button" class="btn ouline-white py-1 px-1 text-small"
+                              data-bs-toggle="modal" data-bs-target="#comment"><i class="icon icon-plus"></i>
+                              Add</button>
+                          </td>
+                          <td>
+                            <div class="btn-group border-end">
+                              <button type="button" class="btn p-2 border-none ms-4" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="dots d-flex align-items-center  m-0 p-0">
+                                  <span class="me-1"></span>
+                                  <span class="me-1 mt-0"></span>
+                                  <span class="mt-0"></span>
+                                </div>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-edit"></i>
+                                    Edit</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-inbox"></i>
+                                    Invitation Email</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icon icon-delete"></i>
+                                    Delete</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3 p-0">
+              <div class="chart business-snap-charts d-flex flex-column project-information text-center p-2 h-100">
+                <div class="online-image skeleton">
+                  <img src="./assets/images/project-image.png" alt="/">
+                </div>
+                <h5 class="mt-3 skeleton">Nathan Garcia</h5>
+                <h4 class="skeleton">$ 2754</h4>
+                <div class="row p-2 m-0 w-100 mt-4 border rounded">
+                  <div class="col-4 text-center p-0 pe-2">
+                    <p class="text-11 skeleton">Earning</p>
+                    <h6 class="skeleton">$ 1554</h6>
+                    <p class="text-11 text-light-gray skeleton">Lorem ipsum</p>
+                  </div>
+                  <div class="col-4 text-center p-0 pe-2">
+                    <p class="text-11 skeleton">Earning</p>
+                    <h6 class="skeleton">$ 1554</h6>
+                    <p class="text-11 text-light-gray skeleton">Lorem ipsum</p>
+                  </div>
+                  <div class="col-4 text-center p-0 pe-2">
+                    <p class="text-11 skeleton">Earning</p>
+                    <h6 class="skeleton">$ 1554</h6>
+                    <p class="text-11 text-light-gray skeleton">Lorem ipsum</p>
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <h6 class="text-start skeleton">Tags</h6>
+                  <div class="row w-100 m-0 p-0 my-3">
+                    <div class="col-6 col-md-4 p-md-0 pe-md-2">
+                      <div class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                      <div
+                        class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between mt-2 skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                      <div
+                        class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between mt-2 skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 p-md-0 pe-md-2">
+                      <div class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                      <div
+                        class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between mt-2 skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                      <div
+                        class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between mt-2 skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 p-md-0 mt-3 mt-md-0">
+                      <div class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                      <div
+                        class="rounded-pill px-2 py-1 btn-fill d-flex align-items-center justify-content-between mt-2 skeleton">
+                        <p class="lh-1">Tag</p>
+                        <a href="#" class="text-11 d-block text-decoration-none"><i
+                            class="icon icon-tag-cancel"></i></a>
+                      </div>
+                      <a href="" class="text-11 rounded-pill p-1 d-block mt-2 text-decoration-none btn-fill skeleton"
+                        data-bs-toggle="modal" data-bs-target="#businessForm-1">Add
+                        Deal</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <a href="#" class="text-11 rounded-pill py-1 px-2 d-block ms-auto text-decoration-none w-fit btn-fill skeleton"
+                    data-bs-toggle="modal" data-bs-target="#insightModal">+ Add
+                    Insight</a>
+                  <div class="insight skeleton">
+                    <img src="./assets/images/profile-2.png" alt="">
+                    <div class="insight-content">
+                      <p class="text-11 text-primary text-start fw-600">Jone Doe</p>
+                      <p class="text-11 text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                  <div class="insight skeleton">
+                    <img src="./assets/images/profile-2.png" alt="">
+                    <div class="insight-content">
+                      <p class="text-11 text-primary text-start fw-600">Jone Doe</p>
+                      <p class="text-11 text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                  <div class="insight skeleton">
+                    <img src="./assets/images/profile-2.png" alt="">
+                    <div class="insight-content">
+                      <p class="text-11 text-primary text-start fw-600">Jone Doe</p>
+                      <p class="text-11 text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="modal fade" id="insightModal" tabindex="-1" aria-labelledby="insightModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="insightModalLabel">Insight</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="file-upload">
+                <figure>
+                  <img id="chosen-image">
+                  <figcaption id="file-name">
+                  </figcaption>
+                </figure>
+                <input type="file" id="upload-button" accept="image/*">
+                <label for="upload-button">
+                  <i class="fa-solid fa-circle-info mr-3"></i> Add Header
+                  Image
+                </label>
+              </div>
+              <label for="name" class="d-block my-2 fw-600">Full Name</label>
+              <input type="text" placeholder="Please a Full Name" class="w-100 py-2 px-3 border border-2 rounded">
+              <label for="message" class="d-block my-2 fw-600">Message</label>
+              <textarea name="message" id="message" cols="55" rows="5" class="border border-2 rounded"></textarea>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn border border-2 px-4" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-fill px-4">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal right fade" id="businessForm" tabindex="-1" aria-labelledby="interviewLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Add New deal</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-light customer-add-form">
+            <form>
+              <label for="Customer-name" class="d-block mb-2">Customer Name</label>
+              <select id="cars" name="carlist" form="carform" class="form-input w-100">
+                <option value="volvo">Please insert customer name</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+              <label for="Project-name" class="d-block my-2">Deal ID</label>
+              <input type="text" placeholder="Please insert deal ID" class="form-input w-100">
+              <label for="Project-id" class="d-block my-2">Customer Contact</label>
+              <div class="d-flex">
+                <div class="col-6 me-2">
+                  <input type="text" placeholder="Name" class="form-input w-100 mb-2">
+                  <input type="number" placeholder="Phone" class="form-input w-100">
+                </div>
+                <div class="col-6">
+                  <input type="email" placeholder="Email" class="form-input w-100 mb-2">
+                  <input type="text" placeholder="Position" class="form-input w-100">
+                </div>
+              </div>
+              <label for="ProjectManager" class="d-block my-2">Account Manager</label>
+              <select id="cars" name="carlist" form="carform" class="form-input w-100">
+                <option value="volvo">Select account manager</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+              <label for="ProjectSummary" class="d-block my-2">Summary</label>
+              <input type="text" placeholder="Summary" class="form-input w-100">
+              <label for="ProjectStage" class="d-block my-2">Portfolio</label>
+              <select id="cars" name="carlist" form="carform" class="form-input w-100">
+                <option value="volvo">Please select Portfolio</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+              <label for="Project-name" class="d-block my-2">Deal Value</label>
+              <input type="text" placeholder="Please insert value" class="form-input w-100">
+              <label for="Invite-members" class="d-block my-2">Invite Members</label>
+              <input type="text" placeholder="john.doe@gmail.com" class="form-input w-100">
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-primary px-5 py-2 text-uppercase">ADD</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="risksIssueModal" tabindex="-1" aria-labelledby="risksIssueModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="risksIssueModalLabel">Add new Risks & Issues</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Select Type</label>
+            <select name="Risks" id="Risks" class="d-block border border-2 rounded w-100 py-2 px-3">
+              <option value="Risks">Risks</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select>
+            <label for="full-name" class="fw-bold mb-2 mt-4">Select Project</label>
+            <select name="Member" id="Member" class="d-block border border-2 rounded w-100 py-2 px-3">
+              <option value="Member">Please insert Project name</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select>
+            <label for="full-name" class="fw-bold mb-2 mt-4">Owner</label>
+            <select name="Member" id="Member" class="d-block border border-2 rounded w-100 py-2 px-3">
+              <option value="Member">Please insert Project ID</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select>
+            <label for="full-name" class="fw-bold mb-2 mt-4">Title</label>
+            <input type="text" placeholder="Title" class="d-block border border-2 rounded w-100 py-2 px-3">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Summary</label>
+            <input type="text" placeholder="Summary" class="d-block border border-2 rounded w-100 py-2 px-3">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Priority</label>
+            <select name="Member" id="Member" class="d-block border border-2 rounded w-50 py-2 px-3">
+              <option value="Member">Low</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-primary px-4 text-uppercase">submit</button>
+            <button type="button" class="btn border border-2 px-4 text-uppercase" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="updateModalLabel">Update Risks & Issues</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Type</label>
+            <input type="text" placeholder="Risks" class="d-block border border-2 rounded w-100 py-2 px-3">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Project</label>
+            <input type="text" placeholder="Please insert Project name"
+              class="d-block border border-2 rounded w-100 py-2 px-3">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Title</label>
+            <input type="text" placeholder="Title" class="d-block border border-2 rounded w-100 py-2 px-3">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Summary</label>
+            <input type="text" placeholder="Summary" class="d-block border border-2 rounded w-100 py-2 px-3">
+            <label for="full-name" class="fw-bold mb-2 mt-4">Priority</label>
+            <select name="Member" id="Member" class="d-block border border-2 rounded w-50 py-2 px-3">
+              <option value="Member">Low</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select>
+            <label for="full-name" class="fw-bold mb-2 mt-4">Comment</label>
+            <input type="text" placeholder="Comment" class="d-block border border-2 rounded w-100 py-2 px-3">
+            <a href="#" class="text-small text-light-gray text-decoration-none d-block my-2"><i
+                class="icon icon-link me-2"></i>Attach</a>
+            <button type="button" class="btn btn-primary px-4 text-uppercase text-small">Submit</button>
+            <div class="border-bottom border-2 py-2 d-flex justify-content-between align-items-center mt-3">
+              <p class="text-small text-light-gray">Comment 1</p>
+              <p>By: XXX</p>
+            </div>
+            <div class="border-bottom border-2 py-2 d-flex justify-content-between align-items-center">
+              <p class="text-small text-light-gray">Comment 2</p>
+              <p>By: ZZZ</p>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-primary px-4 text-uppercase">update</button>
+            <button type="button" class="btn border border-2 px-4 text-uppercase" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal right fade show d-block opacity-0" id="chartMenu" tabindex="-1" aria-labelledby="chartMenuLabel"
+      aria-hidden="true">
+      <div class="modal-dialog width-70 wsm-95">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Chart Menu</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-3 chart-popup">
+                <ul class="nav nav-tabs border-0 flex-column" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="Basic-tab" data-bs-toggle="tab" data-bs-target="#Basic"
+                      type="button" role="tab" aria-controls="Basic" aria-selected="false">
+                      <p class="text-light-gray">Columns Basic</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Items-tab" data-bs-toggle="tab" data-bs-target="#Items" type="button"
+                      role="tab" aria-controls="Items" aria-selected="false">
+                      <p class="text-light-gray">Columns Items</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Mixed-tab" data-bs-toggle="tab" data-bs-target="#Mixed" type="button"
+                      role="tab" aria-controls="Mixed" aria-selected="false">
+                      <p class="text-light-gray">Columns Mixed</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Nagetine-tab" data-bs-toggle="tab" data-bs-target="#Nagetine"
+                      type="button" role="tab" aria-controls="Nagetine" aria-selected="false">
+                      <p class="text-light-gray">Columns With Nagetine Values</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Multiple-tab" data-bs-toggle="tab" data-bs-target="#Multiple"
+                      type="button" role="tab" aria-controls="Multiple" aria-selected="false">
+                      <p class="text-light-gray">Columns Multiple</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Stacked-tab" data-bs-toggle="tab" data-bs-target="#Stacked"
+                      type="button" role="tab" aria-controls="Stacked" aria-selected="false">
+                      <p class="text-light-gray">Columns Stacked</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Radialbar-tab" data-bs-toggle="tab" data-bs-target="#Radialbar"
+                      type="button" role="tab" aria-controls="Radialbar" aria-selected="true">
+                      <p class="text-light-gray">Radialbar</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Scatter-tab" data-bs-toggle="tab" data-bs-target="#Scatter"
+                      type="button" role="tab" aria-controls="Scatter" aria-selected="false">
+                      <p class="text-light-gray">Scatter</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Line-tab" data-bs-toggle="tab" data-bs-target="#Line" type="button"
+                      role="tab" aria-controls="Line" aria-selected="false">
+                      <p class="text-light-gray">Line</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Area-tab" data-bs-toggle="tab" data-bs-target="#Area" type="button"
+                      role="tab" aria-controls="Area" aria-selected="false">
+                      <p class="text-light-gray">Area</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Radar-tab" data-bs-toggle="tab" data-bs-target="#Radar" type="button"
+                      role="tab" aria-controls="Radar" aria-selected="false">
+                      <p class="text-light-gray">Radar</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Donut-tab" data-bs-toggle="tab" data-bs-target="#Donut" type="button"
+                      role="tab" aria-controls="Donut" aria-selected="false">
+                      <p class="text-light-gray">Donut</p>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Pies-tab" data-bs-toggle="tab" data-bs-target="#Pies" type="button"
+                      role="tab" aria-controls="Pies" aria-selected="false">
+                      <p class="text-light-gray">Pies</p>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-9 chart-popup">
+                <div class="tab-content mt-4">
+                  <div class="tab-pane " id="Radialbar" role="tabpanel" aria-labelledby="Radialbar-tab">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="cursor-pointer">
+                          <canvas id="Radialbar-1" class="w-100"
+                            style="display: block; box-sizing: border-box; height: 422px; width: 422px;" width="422"
+                            height="422"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="cursor-pointer">
+                          <canvas id="Radialbar-2" class="w-100"
+                            style="display: block; box-sizing: border-box; height: 422px; width: 422px;" width="422"
+                            height="422"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane " id="Scatter" role="tabpanel" aria-labelledby="Scatter-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="invoiceBars" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="invoiceBars1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane " id="Line" role="tabpanel" aria-labelledby="Line-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="lineChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 197px; width: 308px;" width="308"
+                            height="197"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="lineChart1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 197px; width: 308px;" width="308"
+                            height="197"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Area" role="tabpanel" aria-labelledby="Area-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="areaChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 250px; width: 630px;" height="250"
+                            width="630"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="areaChart1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 250px; width: 630px;" height="250"
+                            width="630"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane " id="Radar" role="tabpanel" aria-labelledby="Radar-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="radarChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 450px;" width="450"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="radarChart1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 450px;" width="450"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane " id="Donut" role="tabpanel" aria-labelledby="Donut-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="dountMenuChart" class="w-100"
+                            style="display: block; box-sizing: border-box; height: 422px; width: 422px;" width="422"
+                            height="422"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="dountMenuChart1" class="w-100"
+                            style="display: block; box-sizing: border-box; height: 422px; width: 422px;" width="422"
+                            height="422"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Pies" role="tabpanel" aria-labelledby="Pies-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="pieChart" class="wsm-100 w-100"
+                            style="display: block; box-sizing: border-box; height: 278px; width: 278px;" width="278"
+                            height="278"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Basic" role="tabpanel" aria-labelledby="Basic-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="barChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="barChart1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mt-4">
+                        <div class="cursor-pointer">
+                          <canvas id="barChart2" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Multiple" role="tabpanel" aria-labelledby="Multiple-tab">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="cursor-pointer">
+                          <canvas id="doubleBarChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 450px;" width="450"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-8 mt-4">
+                        <div class="cursor-pointer">
+                          <canvas id="doubleBarChart1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 450px;" width="450"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Stacked" role="tabpanel" aria-labelledby="Stacked-tab">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="cursor-pointer">
+                          <canvas id="stackedChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 215px; width: 631px;" width="631"
+                            height="215"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Nagetine" role="tabpanel" aria-labelledby="Nagetine-tab">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="cursor-pointer">
+                          <canvas id="nagetineChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="cursor-pointer">
+                          <canvas id="nagetineChart-1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Items" role="tabpanel" aria-labelledby="Items-tab">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="cursor-pointer">
+                          <canvas id="itemsChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="cursor-pointer">
+                          <canvas id="itemsChart-1" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="cursor-pointer">
+                          <canvas id="itemsChart-2" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="cursor-pointer">
+                          <canvas id="itemsChart-3" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mt-4">
+                        <div class="cursor-pointer">
+                          <canvas id="itemsChart-4" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mt-4">
+                        <div class="cursor-pointer">
+                          <canvas id="itemsChart-5" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="Mixed" role="tabpanel" aria-labelledby="Mixed-tab">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="cursor-pointer">
+                          <canvas id="mixedChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 260px; width: 470px;"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane " id="Map" role="tabpanel" aria-labelledby="Map-tab">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="cursor-pointer">
+                          <canvas id="mapChart2" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 160px; width: 470px;" width="470"
+                            height="160"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane active" id="Candlestick" role="tabpanel" aria-labelledby="Candlestick-tab">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="cursor-pointer">
+                          <canvas id="candlestickChart" class="wsm-100"
+                            style="display: block; box-sizing: border-box; height: 140px; width: 411px;" width="369"
+                            height="125"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase wsm-100">Update</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase wsm-100"
+              data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="chartAddModal" tabindex="-1" aria-labelledby="chartAddModalLabel" aria-hidden="true">
+      <div class="modal-dialog chart-form">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="chartAddModalLabel">Add chart new</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="role" class="fw-bold mt-3 mb-2">Chart Title</label>
+            <input type="text" name="name" id="name" placeholder="Enter a Full Name"
+              class="d-block w-100 border border-2 rounded px-4 py-2">
+            <label for="role" class="fw-bold mt-3 mb-2">Select Data Source</label>
+            <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+              <option value="Manager"></option>
+              <option value="Urdu">Database</option>
+              <option value="Hindi">API</option>
+            </select>
+            <label for="role" class="fw-bold mt-3 mb-2">Select Data</label>
+            <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+              <option value="Manager"></option>
+              <option value="Urdu">Number of Projects</option>
+              <option value="Hindi">Total Projects Cost</option>
+            </select>
+            <label for="role" class="fw-bold mt-3 mb-2">Select API</label>
+            <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+              <option value="Manager"></option>
+              <option value="Urdu">Zendesk Sell API</option>
+              <option value="Hindi">Zoho CRM API</option>
+              <option value="Hindi">Hubspot CRM</option>
+              <option value="Hindi">Salesforce API</option>
+              <option value="Hindi">Microsoft Dynamics API</option>
+              <option value="Hindi">Excel and Google Sheets</option>
+              <option value="Hindi">Jira Cloud</option>
+              <option value="Hindi">Google Drive</option>
+              <option value="Hindi">Dropbox</option>
+              <option value="Hindi">One drive – sharepoints</option>
+              <option value="Hindi">Outlook</option>
+              <option value="Hindi">Clickup</option>
+            </select>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill text-uppercase">Add</button>
+            <button type="button" class="btn text-uppercase border border-2" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="addChartButtonModal" tabindex="-1" aria-labelledby="addChartButtonModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog width-50 wsm-95 add-new-chart">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addChartButtonModalLabel">Add New Chart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex">
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/vertical-bar-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">vertical Bar Chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/horizontal-bar-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">horizontal bar chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/stacked-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">stacked chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/donut-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">Donut chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/line-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">line chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/composite-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">composite chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/area-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">Area chart</h6>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/journey-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">journey chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/pivot-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">pivot chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/word-cloud.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">word cloud</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/trend-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">trend chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/gauge-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">gauge chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 me-2 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/funnel-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">funnel chart</h6>
+              </div>
+              <div class="border border-2 rounded w-100 text-center p-2 mb-3 cursor-pointer" data-bs-toggle="modal"
+                data-bs-target="#chartAddModal">
+                <img src="./assets/images/kpi-chart.png" alt="" class="width-50px mb-3">
+                <h6 class="text-uppercase text-small">kpi chart</h6>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill text-uppercase">Save</button>
+            <button type="button" class="btn border border-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="comment" tabindex="-1" aria-labelledby="commentLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="commentLabel">Comment</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <label for="message" class="d-block my-2 fw-600">Message</label>
+              <textarea name="message" id="message" cols="55" rows="5" class="border border-2 rounded"></textarea>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn border border-2 px-4" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-fill px-4">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal right fade" id="SettingForm" tabindex="-1" aria-labelledby="interviewLabel" aria-hidden="true">
+      <div class="modal-dialog width-50 wsm-95">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Profile settings</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-light customer-add-form">
+            <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-uppercase active" id="general-tab" data-bs-toggle="tab"
+                  data-bs-target="#general" type="button" role="tab" aria-controls="general"
+                  aria-selected="false">general</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-uppercase" id="security-tab" data-bs-toggle="tab"
+                  data-bs-target="#security" type="button" role="tab" aria-controls="security"
+                  aria-selected="false">security</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-uppercase" id="billing-tab" data-bs-toggle="tab" data-bs-target="#billing"
+                  type="button" role="tab" aria-controls="billing" aria-selected="false">billing</button>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane py-4 active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                <form>
+                  <div class="upload-file">
+                    <div class="file-upload">
+                      <figure>
+                        <img id="chosen-image">
+                        <figcaption id="file-name">
+                        </figcaption>
+                      </figure>
+                      <input type="file" id="upload-button" accept="image/*" />
+                      <label for="upload-button">
+                        Add Image
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="name" class="fw-bold mt-3 mb-2">Full Name</label>
+                      <input type="text" name="name" id="name" placeholder="Enter a Full Name"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <label for="email" class="fw-bold mt-3 mb-2">Email</label>
+                      <input type="email" name="email" id="email" placeholder="Enter a Email"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <label for="language" class="fw-bold mt-3 mb-2">Language</label>
+                      <select name="language" id="language" class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="English">English</option>
+                        <option value="Urdu">Urdu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Punjabi">Punjabi</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="role" class="fw-bold mt-3 mb-2">Role</label>
+                      <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-4 py-2">
+                        <option value="Manager">Manager</option>
+                        <option value="Urdu">Urdu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Punjabi">Punjabi</option>
+                      </select>
+                      <label for="phone" class="fw-bold mt-3 mb-2">Phone</label>
+                      <input type="tel" name="phone" id="phone" placeholder="Enter a Phone Number"
+                        class="d-block w-100 border border-2 rounded px-4 py-2">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane py-4" id="security" role="tabpanel" aria-labelledby="security-tab">
+                <h5 class="fw-600 mb-3">Change Password</h5>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="password" class="fw-bold mt-3 mb-2">Current Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="password" class="fw-bold mt-3 mb-2">New Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                  </div>
+                </div>
+                <h5 class="fw-600 mb-3">Security Questions</h5>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="questions" class="fw-bold mt-3 mb-2">Questions #1</label>
+                    <select name="questions" id="questions" class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <option value="questions">What is your friend's name</option>
+                      <option value="Admin">Admin</option>
+                      <option value="Admin +">Admin +</option>
+                    </select>
+                    <label for="questions" class="fw-bold mt-3 mb-2">Questions #1</label>
+                    <select name="questions" id="questions" class="d-block w-100 border border-2 rounded px-4 py-2">
+                      <option value="questions">What is your friend's name</option>
+                      <option value="Admin">Admin</option>
+                      <option value="Admin +">Admin +</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="answer" class="fw-bold mt-3 mb-2">Answer</label>
+                    <input type="text" name="answer" id="answer" placeholder="Enter Your Answer"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                    <label for="answer" class="fw-bold mt-3 mb-2">Answer</label>
+                    <input type="text" name="answer" id="answer" placeholder="Enter Your Answer"
+                      class="d-block w-100 border border-2 rounded px-4 py-2">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane py-4" id="billing" role="tabpanel" aria-labelledby="billing-tab">
+                <h5 class="fw-600 mb-3">Billing Settings</h5>
+                <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                  <p>Payment Method</p>
+                  <div class="d-flex align-items-center">
+                    <p>MasterCard ending in 4078,exp: 08/2020</p>
+                    <a href="./pm-billing.html" class="text-decoration-none ms-3">Update</a>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                  <p>Billing Period</p>
+                  <div class="d-flex align-items-center">
+                    <p>Plan billed monthly</p>
+                    <a href="./pm-billing.html" class="text-decoration-none ms-3">Update</a>
+                  </div>
+                </div>
+                <h5 class="fw-600 my-3">Payment History</h5>
+                <div class="border rounded">
+                  <div class="d-flex align-items-center justify-content-between border-bottom p-3">
+                    <div class="d-flex align-items-center">
+                      <p class="fw-bold me-3">21 Oct 2018</p>
+                      <p>IOTask Pro (9/21/2018 to 10/21/2019)</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <p>$28.00</p>
+                      <a href="#" class="text-decoration-none ms-3">Invoice</a>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between border-bottom p-3">
+                    <div class="d-flex align-items-center">
+                      <p class="fw-bold me-3">21 Oct 2018</p>
+                      <p>IOTask Pro (9/21/2018 to 10/21/2019)</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <p>$28.00</p>
+                      <a href="#" class="text-decoration-none ms-3">Invoice</a>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between p-3">
+                    <div class="d-flex align-items-center">
+                      <p class="fw-bold me-3">21 Oct 2018</p>
+                      <p>IOTask Pro (9/21/2018 to 10/21/2019)</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <p>$28.00</p>
+                      <a href="#" class="text-decoration-none ms-3">Invoice</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-fill px-5 py-2 text-uppercase">Update</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal right fade" id="userForm" tabindex="-1" aria-labelledby="interviewLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Add new User</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-light customer-add-form">
+            <form>
+              <label for="Customer-name" class="d-block mb-2">User Name</label>
+              <input type="text" placeholder="Please Insert User Name" class="form-input w-100">
+              <label for="Project-id" class="d-block my-2">Department</label>
+              <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                <option value="Manager">Owner</option>
+                <option value="Manager">Admin</option>
+                <option value="Urdu">Extended</option>
+                <option value="Hindi">Standard</option>
+                <option value="Punjabi">Limited</option>
+              </select>
+              <label for="ProjectSummary" class="d-block my-2">User Phone Number</label>
+              <input type="text" placeholder="Enter a User Phone Number" class="form-input w-100">
+              <label for="ProjectSummary" class="d-block my-2">User Email</label>
+              <input type="text" placeholder="Enter a User Email" class="form-input w-100">
+              <label for="ProjectSummary" class="d-block my-2">User Position</label>
+              <input type="text" placeholder="Enter a User Position" class="form-input w-100">
+              <label for="ProjectSummary" class="d-block my-2">Role</label>
+              <select name="Role" id="Role" class="d-block w-100 border border-2 rounded px-2 py-2">
+                <option value="Manager">Owner</option>
+                <option value="Manager">Admin</option>
+                <option value="Urdu">Extended</option>
+                <option value="Hindi">Standard</option>
+                <option value="Punjabi">Limited</option>
+              </select>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-primary px-5 py-2 text-uppercase">Add</button>
+            <button type="button" class="btn bg-light px-4 py-2 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript
+================================================== -->
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./assets/js/project-overview.js"></script>
+  <script src="./assets/js/graphs-popup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.3.0/luxon.min.js"></script>
+  <script src="./assets/js/candleschart.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.0.0"></script>
+  <script src="./assets/js/chartjs-chart-financial.js"></script>
+  <script>
+    $('#chartMenu').removeClass('show').removeClass('d-block').removeClass('opacity-0');
+
+    const doublebar = document.getElementById("doubleBars");
+
+    const bar3 = new Chart(doublebar, {
+      type: "bar",
+      data: {
+        labels: ["Jan", "Mar", "Apr", "May", "Jun", "Jul"],
+        datasets: [
+          {
+            label: "# of Votes",
+            data: [10, 13, 9, 12, 13, 8],
+            borderRadius: 5,
+            borderWidth: 1,
+            backgroundColor: "#775da6",
+            barThickness: 12,
+          },
+          {
+            label: "# of Votes",
+            data: [10, 13, 9, 12, 11, 13],
+            borderRadius: 5,
+            borderWidth: 1,
+            backgroundColor: "#abdfe7",
+            barThickness: 12,
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        scales: {
+          x: {
+            // display: false,
+            grid: {
+              drawOnChartArea: false,
+            },
+            ticks: {
+              display: true,
+            },
+          },
+          y: {
+            display: false,
+            grid: {
+              drawOnChartArea: false,
+            },
+            ticks: {
+              display: false,
+            },
+          },
+        },
+        plugins: {
+          legend: {
+            display: false,
+          },
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>
